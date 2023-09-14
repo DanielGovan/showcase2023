@@ -9,7 +9,7 @@ describe("Homepage", () => {
     cy.visit("/");
 
     // Check title
-    cy.get("h1").contains("Hello world");
+    cy.get("h1").contains("Dan Govan");
   });
 });
 
