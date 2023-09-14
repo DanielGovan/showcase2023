@@ -8,7 +8,7 @@ interface PlaceProps extends ChildrenProps {
 
 const FooterLink = ({ print, href, children, noprint }: PlaceProps) => {
   return (
-    <div className={`${noprint ? "print:hidden" : ""} `} data-print={print}>
+    <div className={`${noprint ? "print:hidden" : ""} mb-4`} data-print={print}>
       <a
         target="_blank"
         rel="noreferrer"
