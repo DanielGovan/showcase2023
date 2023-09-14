@@ -7,6 +7,11 @@ const config: Config = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    fontFamily: {
+      sans: ["Ubuntu", "ui-sans-serif", "system-ui"],
+      serif: ["Lora", "ui-serif", "Georgia"],
+      mono: ["ui-monospace", "SFMono-Regular"],
+    },
     extend: {
       colors: {
         gray: {

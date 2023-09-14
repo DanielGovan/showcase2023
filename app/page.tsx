@@ -46,39 +46,39 @@ export default function Home() {
               work has included forms with React Hook Form and Formik, mocking
               with Faker and MSW, data fetching and state management with
               React-Query and Redux Toolkit, animation with Framer-Motion,
-              server-side rendering with Next.js and Gatsby, testing with Jest /
-              RTL and Chromatic.
+              server-side rendering with Next.js 13 and Gatsby.
             </Skill>
             <Skill title="Scripting">
               My first JavaScript specific role was in 2014, and by 2018 it was
               all JavaScript, with the last 2 years in TypeScript. Mostly
               frontend with React, RESTful APIs etc, but regularly contributing
-              to Node backends. I&apos;ve also worked with React Native,
+              to Node backends. I&rsquo;ve also worked with React Native,
               express, socket.io, and previously with Angular 2, PHP &amp; and
               had exposure to a variety of backends.
             </Skill>
-            {/* <Skill title="Testing">
-            Unit tests with Jest / React Testing Library, automated visual
-            regression testing with Chromatic.
-          </Skill> */}
+            <Skill title="Testing">
+              End to end with Cypress, Unit with Cypress, Jest, React Testing
+              Library, visual regression with Chromatic.
+            </Skill>
             <Skill title="Styling">
-              My first job in 2006 was reducing the size of the CSS file for a
-              well-trafficked Intel site. CSS3 (Sass, LESS, Stylus), BEM /
-              SMACSS-based architecture, then js-wrapped modules, styled
-              components, styled system, styled jsx, JSS, TSS.
+              2006 I started out tasked reducing the size of the CSS file for a
+              well-trafficked Intel site, and it&rsquo;s just continued from
+              there. CSS3 (Sass, LESS, Stylus), BEM / SMACSS-based architecture,
+              then js-wrapped modules, styled components, styled system, styled
+              jsx, JSS, TSS, and lately framworkes like Chakra-ui and Tailwind
             </Skill>
             <Skill title="Markup">
               Building sites for international brands like Vauxhall and Colgate
               gave me a grounding in semantic HTML with a mind to accessibility,
               SEO, scalability &amp; unexpected localisation. The practical
               challenges of keeping apps and websites performant and
-              device-agnostic. Over the years I&apos;ve also learned (and
+              device-agnostic. Over the years I&rsquo;ve also learned (and
               forgotten) a bewildering array of templating syntaxes.
             </Skill>
             <Skill title="Design">
               Talking to creatives on their own terms, translating and pulling
               assets out of creative comps in Photoshop or Figma, adding
-              interstitial layouts &amp; interactions that those don&apos;t
+              interstitial layouts &amp; interactions that those don&rsquo;t
               cover, identifying UX breakdowns early.
             </Skill>
             <Skill title="Mentoring">
@@ -92,15 +92,6 @@ export default function Home() {
               with GitHub &amp; Jenkins, Travis and Semaphore, Jira, Trello,
               Fibery, Netlify.
             </Skill>
-            {/* <Skill title="Side projects">
-            Designed &amp; built a Gatsby (React, GraphQL, Jamstack) photography
-            website, later rebuilt in TypeScript & Chakra UI. Took courses in
-            JavaScript Algorithms, Data Structures, React Native, Redux &amp;
-            Node.js.
-          </Skill> */}
-            {/* <Skill title="Education">
-            BEng (Mechanical) at Warwick University
-          </Skill> */}
           </ColumnWrap>
         </div>
         <SectionHeader>Experience</SectionHeader>
@@ -289,16 +280,16 @@ export default function Home() {
           </Place>
         </ColumnWrap>
 
-        <div>
-          <div className="Appendix-links">
-            <SectionHeader>Contact</SectionHeader>
+        <div className="print:hidden">
+          <SectionHeader>Contact</SectionHeader>
+          <div className="flex font-sans text-red-800">
             <FooterLink
               print="www.linkedin.com/in/daniel-govan-9227511"
               href="https://www.linkedin.com/in/%F0%9F%91%8D-daniel-govan-9227511/"
-              flag="noprint"
+              noprint={true}
             >
               <FaLinkedin />
-              LinkedIn
+              <span className="ml-2">LinkedIn</span>
             </FooterLink>
 
             <FooterLink
@@ -306,14 +297,14 @@ export default function Home() {
               href="https://github.com/danielgovan/"
             >
               <FaGithubAlt />
-              Github
+              <span className="ml-2">Github</span>
             </FooterLink>
             <FooterLink
               print="danielgovan@gmail.com"
               href="mailto:danielgovan@gmail.com"
             >
               <GrMail />
-              Email
+              <span className="ml-2">Email</span>
             </FooterLink>
           </div>
         </div>

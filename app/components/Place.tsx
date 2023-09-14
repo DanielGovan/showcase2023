@@ -1,28 +1,17 @@
 import { ChildrenProps } from "./MainWrap";
 import Subheader from "./Subheader";
 
-// const StyledPlace = styled.div`
-//   @media screen {
-//     margin-bottom: 1rem;
-//   }
-//   margin-bottom: 0.5rem;
-//   --webkit-column-break-inside: avoid;
-//   break-inside: avoid;
-// `;
-
 interface PlaceProps extends ChildrenProps {
   time: string;
   place: string;
-  type?: string;
 }
 
-const Place = ({ time, place, type, children }: PlaceProps) => {
+const Place = ({ time, place, children }: PlaceProps) => {
   return (
-    <div>
+    <div className="mb-4 print:mb-2 break-inside-avoid">
       <Subheader>
         {place}
-        <span className="dateText">{time}</span>
-        <span className="dateText">{type}</span>
+        <span className="text-sm opacity-70 text-gray-900 block">{time}</span>
       </Subheader>
       {children}
     </div>
