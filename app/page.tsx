@@ -98,6 +98,14 @@ export default function Home() {
           <SectionHeader>Experience</SectionHeader>
           <ColumnWrap>
             {/* <SectionHeader>Frontend Contractor 2014 - 2023</SectionHeader> */}
+            <Place time="Jun 2023 to now" place="Side projects">
+              <Para>
+                To keep sharp, skill up on testing and keep abrest of the latest
+                developemnts in the React ecosystem, I&rsquo;ve done courses in
+                and tinkered with Cypress, Next13, Tailwind, React Server
+                Components and GitHub Copilot so far.
+              </Para>
+            </Place>
             <Place time="Jul 2022 - Apr 2023" place="EDD London">
               <Para>
                 An agency role where projects included two booking platforms and
@@ -120,10 +128,10 @@ export default function Home() {
                 Headless CMS.
               </Para>
             </Place>
-            <Place time="Nov 2022 to Jan 2023" place="Side project">
+            <Place time="Nov 2022 to Jan 2023" place="Lightbydan">
               <Para>
                 Designed and built a photography showcase site in TypeScript
-                with Gatsby/GraphQL auto deploying from Git via serverless
+                with Gatsby/GraphQL and Chakra-UI, deploying from Git via
                 Netlify, running polls and forms with Formik and Firebase.
               </Para>
             </Place>
@@ -131,15 +139,15 @@ export default function Home() {
               <Para>
                 In-house, product side role on an event ticket marketplace
                 platform, building interfaces to increase transparency to
-                partners on fees and sales performance. Working in small teams
-                we built out a succession of portals and other components in a
-                large mostly React / Redux codebase.
+                partners on fees and sales performance. I built out a succession
+                of portals and other components in a large mostly React / Redux
+                codebase.
               </Para>
               <Para>
                 Fun new things included learning TypeScript and Redux Toolkit,
-                testing as standard with Jest / React Testing Library. We also
-                integrated with React-i18next and touched on some PHP templating
-                with Twig, while avoiding legacy PHPTal.
+                testing as standard with Jest / React Testing Library, and CI/CD
+                with Jenkins. I also integrated with React-i18next and worked on
+                on PHP templating with Twig and PHPTal.
               </Para>
             </Place>
             {/* <Place time="Feb 2021" place="BDH">
