@@ -61,11 +61,11 @@ export default function Home() {
               Library, visual regression with Chromatic.
             </Skill>
             <Skill title="Styling">
-              2006 I started out tasked reducing the size of the CSS file for a
-              well-trafficked Intel site, and it&rsquo;s just continued from
+              In 2006 I started out tasked with reducing the size of the CSS
+              file for a well-trafficked Intel site, and it just continued from
               there. CSS3 (Sass, LESS, Stylus), BEM / SMACSS-based architecture,
               then js-wrapped modules, styled components, styled system, styled
-              jsx, JSS, TSS, and lately framworkes like Chakra-ui and Tailwind
+              jsx, JSS, TSS, and lately framworks like Chakra-ui and Tailwind
             </Skill>
             <Skill title="Markup">
               Building sites for international brands like Vauxhall and Colgate
@@ -100,10 +100,10 @@ export default function Home() {
             {/* <SectionHeader>Frontend Contractor 2014 - 2023</SectionHeader> */}
             <Place time="Jun 2023 to now" place="Side projects">
               <Para>
-                To keep sharp, skill up on testing and keep abrest of the latest
-                developemnts in the React ecosystem, I&rsquo;ve done courses in
-                and tinkered with Cypress, Next13, Tailwind, React Server
-                Components and GitHub Copilot so far.
+                To keep sharp, skill up on testing and keep abreast of the
+                latest developments in the React ecosystem, I&rsquo;ve done
+                courses in and tinkered with Cypress, Next13, Tailwind, React
+                Server Components and GitHub Copilot so far.
               </Para>
             </Place>
             <Place time="Jul 2022 - Apr 2023" place="EDD London">
