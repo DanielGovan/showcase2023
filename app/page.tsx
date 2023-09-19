@@ -65,7 +65,7 @@ export default function Home() {
               file for a well-trafficked Intel site, and it just continued from
               there. CSS3 (Sass, LESS, Stylus), BEM / SMACSS-based architecture,
               then js-wrapped modules, styled components, styled system, styled
-              jsx, JSS, TSS, and lately framworks like Chakra-ui and Tailwind
+              jsx, JSS, TSS, and lately frameworks like Chakra-ui and Tailwind
             </Skill>
             <Skill title="Markup">
               Building sites for international brands like Vauxhall and Colgate
