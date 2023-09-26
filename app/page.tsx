@@ -56,16 +56,16 @@ export default function Home() {
               express, socket.io, and previously with Angular 2, PHP &amp; and
               had exposure to a variety of backends.
             </Skill>
-            <Skill title="Testing">
-              End to end with Cypress, Unit with Cypress, Jest, React Testing
-              Library, visual regression with Chromatic.
-            </Skill>
             <Skill title="Styling">
               In 2006 I started out tasked with reducing the size of the CSS
               file for a well-trafficked Intel site, and it just continued from
               there. CSS3 (Sass, LESS, Stylus), BEM / SMACSS-based architecture,
               then js-wrapped modules, styled components, styled system, styled
               jsx, JSS, TSS, and lately frameworks like Chakra-ui and Tailwind
+            </Skill>
+            <Skill title="Testing">
+              End to end with Cypress, Unit/Feature with Cypress, Jest, Enzyme,
+              React Testing Library, visual regression with Chromatic.
             </Skill>
             <Skill title="Markup">
               Building sites for international brands like Vauxhall and Colgate
