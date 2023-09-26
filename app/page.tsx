@@ -128,7 +128,7 @@ export default function Home() {
                 Headless CMS.
               </Para>
             </Place>
-            <Place time="Nov 2022 to Jan 2023" place="Lightbydan">
+            <Place time="Nov 2022 to Jan 2023" place="Photographer site">
               <Para>
                 Designed and built a photography showcase site in TypeScript
                 with Gatsby/GraphQL and Chakra-UI, deploying from Git via
