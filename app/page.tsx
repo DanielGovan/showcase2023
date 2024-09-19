@@ -57,15 +57,17 @@ export default function Home() {
               had exposure to a variety of backends.
             </Skill>
             <Skill title="Styling">
-              In 2006 I started out tasked with reducing the size of the CSS
-              file for a well-trafficked Intel site, and it just continued from
-              there. CSS3 (Sass, LESS, Stylus), BEM / SMACSS-based architecture,
-              then js-wrapped modules, styled components, styled system, styled
-              jsx, JSS, TSS, and lately frameworks like Chakra-ui and Tailwind
+              Lately Tailwind, but my first task in 2006 reducing the size of
+              the CSS file for a well-trafficked Intel site, so it&apos;s
+              continued from there. CSS3 (Sass, LESS, Stylus), BEM /
+              SMACSS-based architecture, then js-wrapped modules, styled
+              components, styled system, styled jsx, JSS, TSS, and lately
+              frameworks like Chakra-ui and
             </Skill>
             <Skill title="Testing">
-              End to end with Cypress, Unit/Feature with Cypress, Jest, Enzyme,
-              React Testing Library, visual regression with Chromatic.
+              End to end with Playwright and some Cypress, Unit/Feature with
+              Cypress, Jest, Enzyme, React Testing Library, visual regression
+              with Chromatic.
             </Skill>
             <Skill title="Markup">
               Building sites for international brands like Vauxhall and Colgate
@@ -98,12 +100,35 @@ export default function Home() {
           <SectionHeader>Experience</SectionHeader>
           <ColumnWrap>
             {/* <SectionHeader>Frontend Contractor 2014 - 2023</SectionHeader> */}
-            <Place time="Jun 2023 to now" place="Side projects">
+            <Place time="September 2023 - present" place="Altium">
               <Para>
-                To keep sharp, skill up on testing and keep abreast of the
-                latest developments in the React ecosystem, I&rsquo;ve done
-                courses in and tinkered with Cypress, Next13, Tailwind, React
-                Server Components and GitHub Copilot so far.
+                Joining Altium&apos;s Octopart in-house web team at an exciting
+                time of investment and team growth I was able to be instrumental
+                in overhauling a legacy codebase on a component comparison
+                website with 2.3 million monthly users.
+              </Para>
+              <Para>
+                I led on a move from Styled JSX to Tailwind for improved site
+                performance and DX, supported by documenting components in
+                Storybook and Chromatic for visual regression testing, and
+                implementing a new design system and style guide for visual
+                consistency.
+              </Para>
+              <Para>
+                The new team took ownership for tech debt as well as new
+                features so on top of new search filters for better UX and
+                landing pages for better SEO we were able to add Playwright e2e
+                tests, and move to pnpm, node 20, and Next 14 with App Router,
+                as well as break down confusing and disparate legacy redux
+                patterns.
+              </Para>
+            </Place>
+            <Place time="Jun - Aug 2023" place="Side projects">
+              <Para>
+                To skill up on testing and keep abreast of the latest
+                developments in the React ecosystem, I did courses on and
+                tinkered with Cypress, Next13, Tailwind, React Server Components
+                and GitHub Copilot.
               </Para>
             </Place>
             <Place time="Jul 2022 - Apr 2023" place="EDD London">
