@@ -18,8 +18,7 @@ export default function Home() {
       <MainWrap>
         <HeaderArea
           header="Dan Govan"
-          intro="Senior frontend software engineer
-        with a passion for UI/UX and over 17 years experience building for the web"
+          intro="Senior frontend software engineer with a passion for UI/UX and over 18 years experience building for the web"
         />
 
         {/* <SectionHeader>Overview</SectionHeader>
@@ -42,27 +41,26 @@ export default function Home() {
           <SectionHeader>Skills</SectionHeader>
           <ColumnWrap>
             <Skill title="React">
-              The evolving React ecosystem has been my focus since 2018. Recent
-              work has included forms with React Hook Form and Formik, mocking
-              with Faker and MSW, data fetching and state management with
-              React-Query and Redux Toolkit, animation with Framer-Motion,
-              server-side rendering with Next.js 13 and Gatsby.
+              The evolving React ecosystem has been my focus since 2018.
+              Recently forms with React Hook Form and Formik, mocking with Faker
+              and MSW, data fetching and state management with React-Query and
+              Redux Toolkit, animation with Framer-Motion, server-side rendering
+              with Next.js 14 and Gatsby.
             </Skill>
             <Skill title="Scripting">
               My first JavaScript specific role was in 2014, and by 2018 it was
-              all JavaScript, with the last 2 years in TypeScript. Mostly
-              frontend with React, RESTful APIs etc, but regularly contributing
-              to Node backends. I&rsquo;ve also worked with React Native,
-              express, socket.io, and previously with Angular 2, PHP &amp; and
-              had exposure to a variety of backends.
+              all JavaScript, with the last 3 years in TypeScript. Mostly
+              frontend with React, GQL or RESTful APIs etc, but regularly
+              contributing to Node backends. I&rsquo;ve also worked with Atom,
+              React Native, express, socket.io and had exposure to a variety of
+              backends.
             </Skill>
             <Skill title="Styling">
               Lately Tailwind, but my first task in 2006 reducing the size of
               the CSS file for a well-trafficked Intel site, so it&apos;s
               continued from there. CSS3 (Sass, LESS, Stylus), BEM /
-              SMACSS-based architecture, then js-wrapped modules, styled
-              components, styled system, styled jsx, JSS, TSS, and lately
-              frameworks like Chakra-ui and
+              SMACSS-based architecture. JS modules, styled components, styled
+              system, styled jsx, JSS, TSS, and frameworks like Chakra-ui.
             </Skill>
             <Skill title="Testing">
               End to end with Playwright and some Cypress, Unit/Feature with
@@ -79,14 +77,14 @@ export default function Home() {
             </Skill>
             <Skill title="Design">
               Talking to creatives on their own terms, translating and pulling
-              assets out of creative comps in Photoshop or Figma, adding
+              assets out of creative comps from Photoshop to Figma, adding
               interstitial layouts &amp; interactions that those don&rsquo;t
               cover, identifying UX breakdowns early.
             </Skill>
             <Skill title="Mentoring">
               I usually collaborate in small interdisciplinary teams, but I
-              value knowledge sharing via pairing and code reviews whenever
-              possible. In my last role I had the opportunity to mentor and lead
+              value knowledge sharing and via pairing and code reviews whenever
+              possible. At EDD London I had the opportunity to mentor and lead
               two juniors.
             </Skill>
             <Skill title="Tooling">
