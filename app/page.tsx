@@ -12,13 +12,32 @@ import Para from "./components/Para";
 import ColumnWrap from "./components/ColumnWrap";
 import NoColWrap from "./components/NoColWrap";
 
+// Bring high-level expertise, cutting-edge skills, and fresh perspectives
+// Their professional journey takes them from one innovative project to another, often at the world’s most progressive businesses
+// Continuously developing and applying new technologies, methodologies, and strategies
+
+// From linkedin
+
+// I'm a senior frontend software engineer with a passion for UI/UX and over 18 years experience building for the web, available early 2025 for React-based contracts.
+
+// I'm an old hand at fresh component library builds. I love talking to creatives on their own terms, translating and pulling assets out of creative comps in Photoshop or Figma, adding interstitial layouts & interactions that those don't cover, identifying UX breakdowns early.
+
+// I also love diving into legacy systems to update, refactor and debug. Over the years I've learned (and forgotten) a bewildering array of frameworks, patterns and templating syntaxes and I'm sure that will continue!
+
+// React has been my focus since 2018 with recent work including forms with React Hook Form or Formik, data fetching / state management with React-Query or Redux Toolkit, SSR with Next.js and Gatsby, testing with RTL, Playwright, Optimizely and Chromium. Mostly Typescript these days but JS is fine. Fluent in various CSS patterns.
+
+// CV: dangovan.com
+// GitHub: github.com/DanielGovan
+// Email: daniel.govan@gmail.com
+
 export default function Home() {
   return (
     <Layout>
       <MainWrap>
         <HeaderArea
           header="Dan Govan"
-          intro="Senior frontend software engineer with a passion for UI/UX and over 18 years experience building for the web"
+          intro="Senior frontend software engineer with a passion for UI/UX and over 18 years experience building for the web, looking to join a curious, collaborative and
+        forward-looking team."
         />
 
         {/* <SectionHeader>Overview</SectionHeader>
@@ -34,26 +53,23 @@ export default function Home() {
         new frameworks, design patterns and legacy codebases.
       </Para> */}
         {/* <Para>
-        Now I aspire to join a curious, diverse, collaborative and
-        forward-looking team, in building a high quality, impactful product.
+        Now I aspire to join a 
       </Para> */}
         <section>
           <SectionHeader>Skills</SectionHeader>
           <ColumnWrap>
-            <Skill title="React">
-              The evolving React ecosystem has been my focus since 2018.
-              Recently forms with React Hook Form and Formik, mocking with Faker
-              and MSW, data fetching and state management with React-Query and
-              Redux Toolkit, animation with Framer-Motion, server-side rendering
-              with Next.js 14 and Gatsby.
-            </Skill>
+            {/* <Skill title="React">
+              The evolving React ecosystem has been my focus since 2018, lately
+              mostly in a Next.js framework. I&rsquo;ve also recenrly worked
+              with Astro and will aim to pick up Remix soon.
+            </Skill> */}
             <Skill title="Scripting">
               My first JavaScript specific role was in 2014, and by 2018 it was
-              all JavaScript, with the last 3 years in TypeScript. Mostly
-              frontend with React, GQL or RESTful APIs etc, but regularly
-              contributing to Node backends. I&rsquo;ve also worked with Atom,
-              React Native, express, socket.io and had exposure to a variety of
-              backends.
+              all JavaScript, with the last 4 years in TypeScript. Mostly
+              frontend with React and GQL or RESTful APIs etc, but regularly
+              contributing to Node backends. I&rsquo;ve also worked with Astro,
+              Gatsby, React Native, express, socket.io and had exposure to a
+              variety of backends.
             </Skill>
             <Skill title="Styling">
               Lately Tailwind, but my first task in 2006 reducing the size of
@@ -62,9 +78,18 @@ export default function Home() {
               SMACSS-based architecture. JS modules, styled components, styled
               system, styled jsx, JSS, TSS, and frameworks like Chakra-ui.
             </Skill>
+            <Skill title="Designers and design systems">
+              Talking to creatives on their own terms, translating and pulling
+              assets out of creative comps from Photoshop to Figma, adding
+              interstitial layouts &amp; interactions that those don&rsquo;t
+              cover, identifying UX breakdowns early. Promoting cross-discipline
+              collaboration via tools like Storybook and Chromatic, aiding both
+              with rapid prototyping in fresh builds as well as maintaining a
+              living design system in larger codebases.
+            </Skill>
             <Skill title="Testing">
-              End to end with Playwright and some Cypress, Unit/Feature with
-              Cypress, Jest, Enzyme, React Testing Library, visual regression
+              End to end with Playwright and some Cypress. Unit with Jest, React
+              Testing Library. AB testing with Optimizely. Visual regression
               with Chromatic.
             </Skill>
             <Skill title="Markup">
@@ -72,14 +97,9 @@ export default function Home() {
               gave me a grounding in semantic HTML with a mind to accessibility,
               SEO, scalability &amp; unexpected localisation. The practical
               challenges of keeping apps and websites performant and
-              device-agnostic. Over the years I&rsquo;ve also learned (and
-              forgotten) a bewildering array of templating syntaxes.
-            </Skill>
-            <Skill title="Design">
-              Talking to creatives on their own terms, translating and pulling
-              assets out of creative comps from Photoshop to Figma, adding
-              interstitial layouts &amp; interactions that those don&rsquo;t
-              cover, identifying UX breakdowns early.
+              device-agnostic.{" "}
+              {/* Over the years I&rsquo;ve also learned (and
+              forgotten) a bewildering array of templating syntaxes. */}
             </Skill>
             <Skill title="Mentoring">
               I usually collaborate in small interdisciplinary teams, but I
@@ -121,14 +141,14 @@ export default function Home() {
                 patterns.
               </Para>
             </Place>
-            <Place time="Jun - Aug 2023" place="Side projects">
+            {/* <Place time="Jun - Aug 2023" place="Side projects">
               <Para>
                 To skill up on testing and keep abreast of the latest
                 developments in the React ecosystem, I did courses on and
                 tinkered with Cypress, Next13, Tailwind, React Server Components
                 and GitHub Copilot.
               </Para>
-            </Place>
+            </Place> */}
             <Place time="Jul 2022 - Apr 2023" place="EDD London">
               <Para>
                 An agency role where projects included two booking platforms and
@@ -145,23 +165,24 @@ export default function Home() {
                 offering.
               </Para>
               <Para>
-                Fun new things included React Hook Forms, mocking with Faker
-                &amp; MSW, state and data fetching with React Query, animation
-                with framer motion, and for the CMS content I consumed a custom
-                Headless CMS.
+                Fun new things included React Hook Forms, server-side rendering
+                with Next.js 14 and Gatsby, mocking with Faker &amp; MSW, state
+                and data fetching with React Query, animation with framer
+                motion, and for the CMS content I consumed a custom Headless
+                CMS.
               </Para>
             </Place>
             <Place time="Nov 2022 to Jan 2023" place="Photographer site">
               <Para>
                 Designed and built a photography showcase site in TypeScript
-                with Gatsby/GraphQL and Chakra-UI, deploying from Git via
+                with Gatsby/GraphQL and Chakra-UI, auto deploying from Git via
                 Netlify, running polls and forms with Formik and Firebase.
               </Para>
             </Place>
             <Place time="Apr 2021 - Jul 2022" place="Festicket">
               <Para>
-                In-house, product side role on an event ticket marketplace
-                platform, building interfaces to increase transparency to
+                An in-house, product-side role at an event ticket marketplace
+                platform, building interfaces that increased transparency to
                 partners on fees and sales performance. I built out a succession
                 of portals and other components in a large mostly React / Redux
                 codebase.
@@ -173,11 +194,13 @@ export default function Home() {
                 on PHP templating with Twig and PHPTal.
               </Para>
             </Place>
-            {/* <Place time="Feb 2021" place="BDH">
-          Networked Interactive Presentation app, with React / Redux &amp;
-          express / socket.io, making improvements to a MVP after a round of
-          user testing.
-        </Place> */}
+            <Place time="Feb 2021" place="BDH">
+              <Para>
+                Making improvements to a MVP of a Networked Interactive
+                Presentation app after a round of user testing, with React /
+                Redux &amp; express / socket.io.
+              </Para>
+            </Place>
             <Place time="Sept 2020 - Mar 2021" place="Jollywise">
               <Para>
                 Lead on retrofitting a legacy React and Redux-heavy
@@ -188,14 +211,15 @@ export default function Home() {
                 JS dragon-themed mini games.
               </Para>
             </Place>
-            <Place time="Feb - Mar 2020 / Jun 2020" place="EDD London">
+            <Place time="Feb - Jun 2020" place="EDD London">
               <Para>
                 I built missing React UI components for a new camera rental
                 eCommerce site then led on overhauling the layout from
-                desktop-specific to device-agnostic.
+                desktop-specific to device-agnostic, adding mobile and tablet
+                views with animated transitions.
               </Para>
             </Place>
-            <Place time="Oct 2019 - Feb 2020  / Jun 2020" place="Rehab Agency">
+            <Place time="Oct 2019 - Feb 2020" place="Rehab Agency">
               <Para>
                 Working on a SCORM-based anti-phishing educational tool, I built
                 8 localisations of 6 iterations, consuming a great deal of copy
@@ -294,11 +318,7 @@ export default function Home() {
                 responsive &amp; parallax design.
               </Para>
             </Place>
-            <Place
-              time="2006 - 2011: "
-              place="MRM
-            London"
-            >
+            <Place time="2006 - 2011: " place="MRM London">
               <Para>
                 Starting as an Associate Frontend Developer before promotion, I
                 worked in HTML, CSS &amp; later jQ, reconciling the work of
