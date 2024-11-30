@@ -68,8 +68,7 @@ export default function Home() {
               all JavaScript, with the last 4 years in TypeScript. Mostly
               frontend with React and GQL or RESTful APIs etc, but regularly
               contributing to Node backends. I&rsquo;ve also worked with Astro,
-              Gatsby, React Native, express, socket.io and had exposure to a
-              variety of backends.
+              Gatsby, React Native and had exposure to a variety of backends.
             </Skill>
             <Skill title="Styling">
               Lately Tailwind, but my first task in 2006 reducing the size of
@@ -121,9 +120,9 @@ export default function Home() {
             <Place time="September 2023 - present" place="Altium">
               <Para>
                 Joining Altium&apos;s Octopart in-house web team at an exciting
-                time of investment and team growth I was able to be instrumental
-                in overhauling a legacy codebase on a component comparison
-                website with 2.3 million monthly users.
+                time of investment and team growth we overhauled a legacy
+                codebase on a component comparison website with 2.3 million
+                monthly users.
               </Para>
               <Para>
                 I led on a move from Styled JSX to Tailwind for improved site
@@ -138,7 +137,8 @@ export default function Home() {
                 landing pages for better SEO we were able to add Playwright e2e
                 tests, and move to pnpm, node 20, and Next 14 with App Router,
                 as well as break down confusing and disparate legacy redux
-                patterns.
+                patterns. All with well-structured agile methodologies: code
+                reviews, sprint planning, retro and refinement meetings.
               </Para>
             </Place>
             {/* <Place time="Jun - Aug 2023" place="Side projects">
@@ -191,7 +191,7 @@ export default function Home() {
                 Fun new things included learning TypeScript and Redux Toolkit,
                 testing as standard with Jest / React Testing Library, and CI/CD
                 with Jenkins. I also integrated with React-i18next and worked on
-                on PHP templating with Twig and PHPTal.
+                PHP templating with Twig and PHPTal.
               </Para>
             </Place>
             <Place time="Feb 2021" place="BDH">
@@ -269,7 +269,7 @@ export default function Home() {
                 In-house Creative Technologist in a backend engineering team,
                 brought on for rapid prototyping, creating UIs to test and
                 consume their extensive experimental TV-based metadata APIs for
-                the BBC. I was also contributed to the company blog and spoke at
+                the BBC. I also contributed to the company blog and spoke at
                 monthly meetups.
               </Para>
             </Place>
