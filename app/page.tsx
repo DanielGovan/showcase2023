@@ -345,9 +345,9 @@ export default function Home() {
           </ColumnWrap>
         </section>
 
-        <section className="print:hidden">
+        <section>
           <SectionHeader>Contact</SectionHeader>
-          <div className="flex font-sans text-red-800">
+          <div className="flex print:block font-sans text-red-800">
             <FooterLink
               print="www.linkedin.com/in/daniel-govan-9227511"
               href="https://www.linkedin.com/in/%F0%9F%91%8D-daniel-govan-9227511/"
@@ -360,13 +360,14 @@ export default function Home() {
             <FooterLink
               print="github.com/danielgovan/"
               href="https://github.com/danielgovan/"
+              noprint={true}
             >
               <FaGithubAlt />
               <span className="ml-2">Github</span>
             </FooterLink>
             <FooterLink
-              print="danielgovan@gmail.com"
-              href="mailto:danielgovan@gmail.com"
+              print="dangovan@proton.me"
+              href="mailto:cv.caramel725@passinbox.com"
             >
               <GrMail />
               <span className="ml-2">Email</span>
