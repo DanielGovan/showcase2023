@@ -126,7 +126,7 @@ export default function Home() {
           <SectionHeader>Experience</SectionHeader>
           <ColumnWrap>
             {/* <SectionHeader>Frontend Contractor 2014 - 2023</SectionHeader> */}
-            <Place time="September 2023 - present" place="Altium">
+            <Place time="September 2023 - December 2024" place="Altium">
               <Para>
                 Joining Altium&apos;s Octopart in-house web team at an exciting
                 time of investment and team growth we overhauled a legacy
