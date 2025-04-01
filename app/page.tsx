@@ -63,53 +63,62 @@ export default function Home() {
               mostly in a Next.js framework. I&rsquo;ve also recenrly worked
               with Astro and will aim to pick up Remix soon.
             </Skill> */}
-            <Skill title="Scripting">
-              My first JavaScript specific role was in 2014, and by 2018 it was
-              all JavaScript, with the last 4 years in TypeScript. Mostly
-              frontend with React and GQL or RESTful APIs etc, but regularly
-              contributing to Node backends. I&rsquo;ve also worked with Astro,
-              Gatsby, React Native and had exposure to a variety of backends.
+            <Skill title="20 years of styling">
+              My first dev task in 2006 was reducing the size of the CSS file
+              for a well-trafficked Intel site, so it&apos;s continued from
+              there: CSS3 (Sass, LESS, Stylus), BEM / SMACSS-based architecture.
+              JS modules, styled components, styled system, styled jsx, JSS,
+              TSS, frameworks like Chakra-ui, light and dark modes, and lately a
+              lot of Tailwind.
             </Skill>
-            <Skill title="Styling">
-              Lately Tailwind, but my first task in 2006 reducing the size of
-              the CSS file for a well-trafficked Intel site, so it&apos;s
-              continued from there. CSS3 (Sass, LESS, Stylus), BEM /
-              SMACSS-based architecture. JS modules, styled components, styled
-              system, styled jsx, JSS, TSS, and frameworks like Chakra-ui.
+            <Skill title="Robust markup">
+              Starting off building sites for international brands like Vauxhall
+              and Colgate gave me a grounding in semantic HTML with a mind to
+              accessibility, SEO, scalability &amp; and the value of responsive
+              design and best practice to future-proof against unexpected
+              localisation. The perennial practical challenges of keeping apps
+              and websites performant and device-agnostic.{" "}
+              {/* Over the years I&rsquo;ve also learned (and
+              forgotten) a bewildering array of templating syntaxes. */}
             </Skill>
-            <Skill title="Designers and design systems">
-              Talking to creatives on their own terms, translating and pulling
-              assets out of creative comps from Photoshop to Figma, adding
-              interstitial layouts &amp; interactions that those don&rsquo;t
-              cover, identifying UX breakdowns early. Promoting cross-discipline
-              collaboration via tools like Storybook and Chromatic, aiding both
-              with rapid prototyping in fresh builds as well as maintaining a
-              living design system in larger codebases.
+            <Skill title="JS and its frameworks">
+              As I&rsquo;m happiest building UIs my first JavaScript specific
+              role wasn&rsquo;t until in 2014, but by 2018 I had pivoted to JS
+              and the React ecosystem completely, the last 4 years of which
+              being in TypeScript. SPAs, NextJS v12 and v13, client and
+              server-side rendered apps, RESTful APIs, state management with
+              Redux, Context or React Query, GraphQL. I&rsquo;ve also worked in
+              Astro, Gatsby, React Native, a slew of other now outdated
+              frameworks, regularly contributing to Node backends and had
+              exposure to a range of others.
             </Skill>
             <Skill title="Testing">
               End to end with Playwright and some Cypress. Unit with Jest, React
               Testing Library. AB testing with Optimizely. Visual regression
               with Chromatic.
             </Skill>
-            <Skill title="Markup">
-              Building sites for international brands like Vauxhall and Colgate
-              gave me a grounding in semantic HTML with a mind to accessibility,
-              SEO, scalability &amp; unexpected localisation. The practical
-              challenges of keeping apps and websites performant and
-              device-agnostic.{" "}
-              {/* Over the years I&rsquo;ve also learned (and
-              forgotten) a bewildering array of templating syntaxes. */}
+            <Skill title="Developing design systems">
+              Although I am well practiced at translating and pulling assets out
+              of creative comps from Photoshop to Figma, identifying UX
+              breakdowns early, adding interstitial layouts &amp; interactions
+              etc, I always prefer collaborating with visual designers and
+              ux-ers, directly and via tools like Storybook, Chromatic and
+              Atomic Design, to ensure a consistent language is used from the
+              outset across departments. This aids both with rapid prototyping
+              in greenfield component library builds as well as maintaining a
+              living design system in larger codebases.
             </Skill>
-            <Skill title="Mentoring">
-              I usually collaborate in small interdisciplinary teams, but I
-              value knowledge sharing and via pairing and code reviews whenever
-              possible. At EDD London I had the opportunity to mentor and lead
-              two juniors.
+            <Skill title="Knowledge sharing">
+              While collaborating in small interdisciplinary teams, I value
+              knowledge sharing via pairing and code reviews whenever possible,
+              and I have occasionally had the opportunity to mentor and lead
+              juniors.
             </Skill>
             <Skill title="Tooling">
-              VS Code, Docker, Webpack, Azure, Chromatic, Yarn, NPM, Git, CI
-              with GitHub &amp; Jenkins, Travis and Semaphore, Jira, Trello,
-              Fibery, Netlify.
+              VS Code, Docker, Netlify, Webpack, Yarn workspaces &amp;
+              monorepos, NPM/PNPM, Git, CI/CD pipelines with Travis, Semaphore,
+              Jenkins, Azure DevOps &amp; lately some GitHub Actions. Workspaces
+              with Jira, Trello, Fibery and more.
             </Skill>
           </ColumnWrap>
         </section>
@@ -135,10 +144,11 @@ export default function Home() {
                 The new team took ownership for tech debt as well as new
                 features so on top of new search filters for better UX and
                 landing pages for better SEO we were able to add Playwright e2e
-                tests, and move to pnpm, node 20, and Next 14 with App Router,
-                as well as break down confusing and disparate legacy redux
-                patterns. All with well-structured agile methodologies: code
-                reviews, sprint planning, retro and refinement meetings.
+                tests, and move to pnpm, upgrade the GraphQL patterns twice,
+                node 20, and Next 14 with App Router, as well as break down
+                confusing and disparate legacy redux patterns. All with
+                well-structured agile methodologies: code reviews, sprint
+                planning, retro and refinement meetings.
               </Para>
             </Place>
             {/* <Place time="Jun - Aug 2023" place="Side projects">
@@ -188,10 +198,10 @@ export default function Home() {
                 codebase.
               </Para>
               <Para>
-                Fun new things included learning TypeScript and Redux Toolkit,
-                testing as standard with Jest / React Testing Library, and CI/CD
-                with Jenkins. I also integrated with React-i18next and worked on
-                PHP templating with Twig and PHPTal.
+                Fun new things included deep diving on TypeScript and Redux
+                Toolkit, testing as standard with Jest / React Testing Library,
+                and CI/CD with Jenkins, integrating with React-i18next, and
+                working on PHP templating with Twig and PHPTal.
               </Para>
             </Place>
             <Place time="Feb 2021" place="BDH">
