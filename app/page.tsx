@@ -38,25 +38,24 @@ export default function Home() {
             <Skill title="JS Frameworks">
               Focused on the evolving React ecosystem since 2018, lately in
               Next.js, but with recent experience with Astro &amp; previously
-              Gatsby &amp; React Native; I'm always excited to keep exploring
-              emerging tech.
+              Gatsby &amp; React Native. Always keen to see what's next.
             </Skill>
             <Skill title="Styling">
-              Lately Tailwind, before that frameworks like Chakra-UI, then
-              styled-components, styled-system, JSS, TSS, CSS modules, &amp;
-              earlier CSS3 (Sass, LESS, Stylus) with BEM / SMACSS.
+              Lately Tailwind, previously frameworks like Chakra-UI, before that
+              CSSinJS (styled-components, styled-system, JSS, TSS, CSS modules),
+              preprocessors (Sass, LESS, Stylus).
             </Skill>
             <Skill title="Semantics">
               Early projects with international brands like Vauxhall &amp;
-              Colgate gave me a strong background in semantic HTML, with a mind
-              to accessibility, SEO, &amp; responsive &amp; device-agnostic
-              design, essential for scalability &amp; localisation.
+              Colgate ensured a strong background in semantic HTML for
+              accessibility, SEO, &amp; responsive &amp; device-agnostic design;
+              essential for scalability &amp; localisation.
             </Skill>
             <Skill title="JavaScript">
-              Mainly using TypeScript for SPAs &amp; SSR apps in Next.js
-              (v12–14). Experience includes REST APIs, Redux, Context, React
-              Query, &amp; GraphQL. Some backend in Node &amp; PHP, keen to
-              expand to full-stack roles.
+              Mainly TypeScript for SPAs &amp; SSR apps in Next.js (v12–14).
+              Experience includes REST APIs, Redux, Context, React Query, &amp;
+              GraphQL. Some backend in Node &amp; PHP, keen to expand to
+              full-stack roles.
             </Skill>
             <Skill title="Testing">
               E2E with Playwright &amp; Cypress. Unit testing with Jest, React
@@ -66,8 +65,9 @@ export default function Home() {
             <Skill title="Design systems">
               Love collaborating with designers whether that be on rapid
               prototyping, greenfield component libraries, or maintaining living
-              style guides. Comfortable extracting assets from comps (Photoshop
-              to Figma), identifying UX gaps, &amp; prototyping in Storybook.
+              style guides. Also comfortable extracting assets from comps
+              (Photoshop to Figma), identifying UX gaps, &amp; prototyping in
+              Storybook.
             </Skill>
             <Skill title="Knowledge sharing">
               Value pairing, code reviews, &amp; mentorship opportunities in
@@ -80,7 +80,7 @@ export default function Home() {
             </Skill>
           </ColumnWrap>
         </section>
-        <div className="">
+        <div className="md:flex print:block gap-12">
           <section>
             <SectionHeader>Experience</SectionHeader>
             <Place
@@ -103,9 +103,11 @@ export default function Home() {
                 alignment &amp; visual regression testing.
               </Para>
               <Para>
-                Delivered new UX filters, SEO-focused landing pages, &amp; E2E
-                tests with Playwright. Contributed to tech upgrades: pnpm, Node
-                20, Next.js 14 (App Router), GraphQL rewrites, redux refactors.
+                Delivered new UX filters that increased usage 4%, SEO-focused
+                landing page templates used thousands of times to index to for
+                google, &amp; E2E tests with Playwright. Contributed to tech
+                upgrades: pnpm, Node 20, Next.js 14 (App Router), GraphQL
+                rewrites, redux refactors.
               </Para>
               <Para>
                 Active in agile rituals: sprint planning, code reviews,
@@ -129,8 +131,8 @@ export default function Home() {
                 Lead developers on building &amp; integrating React components.
               </Para>
               <Para>
-                Created a UI library extending Chakra UI for white-label
-                support.
+                Created a custom UI library extending Chakra UI, using their
+                theming framework to provide white-label support.
               </Para>
               <Para>
                 Used React Hook Forms, framer-motion, MSW, React Query, custom
@@ -162,12 +164,13 @@ export default function Home() {
               locationType="Remote"
             >
               <Para>
-                Built internal portals &amp; partner-facing features in a large
-                React/Redux codebase.
+                Joined a product team to build internal portals &amp;
+                partner-facing features in a large React/Redux codebase of a
+                ticket marketplace platform.
               </Para>
               <Para>
-                Worked with Redux Toolkit, TypeScript, Jest, i18n, PHP templates
-                (Twig, PHPTal), Jenkins pipelines.
+                Worked with TypeScript, Redux Toolkit, Jest, React-i18next, PHP
+                templates (Twig, PHPTal), Jenkins pipelines.
               </Para>
             </Place>
             <Place
@@ -180,8 +183,9 @@ export default function Home() {
               locationType="Remote"
             >
               <Para>
-                Improved a React/Redux + Express/socket.io MVP post-user testing
-                for a presentation tool.
+                Made improvements to the MVP of a Networked Interactive
+                Presentation app after a round of user testing, with React /
+                Redux & express / socket.io.
               </Para>
             </Place>
             <Place
@@ -210,8 +214,9 @@ export default function Home() {
               locationType="On-site"
             >
               <Para>
-                Built React UI for a camera rental eCommerce site &amp;
-                overhauled layout to support mobile/tablet with animated
+                Built React UI components for a camera rental eCommerce site
+                &amp; then led on overhauling the layout from desktop-specific
+                to device-agnostic to support mobile/tablet with animated
                 transitions.
               </Para>
             </Place>
@@ -225,9 +230,10 @@ export default function Home() {
               locationType="On-site"
             >
               <Para>
-                Led SCORM-based anti-phishing educational tool build localised
-                in 8 languages with React &amp; JSON &amp; Sketch. Advised
-                parallel projects to bring them up to speed.
+                Built a SCORM-based anti-phishing educational tool using React,
+                CSS modules and JSON. 8 localisations of 6 lessons meant of
+                JSON. Ended up leading the field and advising parallel projects
+                to bring them up to speed.
               </Para>
             </Place>
             <Place
@@ -240,7 +246,9 @@ export default function Home() {
               locationType="Hybrid"
             >
               <Para>
-                Rebuilt onboarding system using React &amp; modular SCSS.
+                Returned to this in-house product team to use React with modular
+                SCSS to implement a new registration &amp; onboarding system to
+                their freelancer platform.
               </Para>
             </Place>
             <Place
@@ -253,8 +261,9 @@ export default function Home() {
               locationType="On-site"
             >
               <Para>
-                Delivered interactive elements for clients including TalkTalk
-                &amp; OpenCart-based sites.
+                Boutique agency role where projects included an HTML5 banner for
+                the front page of Talk Talk, updates to an OpenCart eCommerce
+                site, and other HTML5 and JS interactive elements.
               </Para>
             </Place>
             <Place
@@ -300,8 +309,9 @@ export default function Home() {
               locationType="On-site"
             >
               <Para>
-                Prototyped UIs for experimental BBC metadata APIs. Blogged &amp;
-                presented internally.
+                Joined a backend engineering team to build experimental UIs to
+                consume and test TV metadata APIs for the BBC. Also contributed
+                to the company blog and spoke at monthly meetups.
               </Para>
             </Place>
             <Place
@@ -330,7 +340,9 @@ export default function Home() {
               locationType="On-site"
             >
               <Para>
-                Drupal-based content work for Organix. Used PHP, CSS, jQuery.
+                An agency role on a content-based site for Organix site, where I
+                was quickly able to pick up Drupal and used PHP, CSS & jQuery to
+                implement new sections of the site.
               </Para>
             </Place>
             <Place
@@ -396,7 +408,7 @@ export default function Home() {
 
           <section>
             <SectionHeader>Info</SectionHeader>
-            <ul className="text-lg mb-8">
+            <ul>
               <AppendixItem
                 title="Education"
                 content="2004 Warwick University, BEng in Mechanical Engineering "

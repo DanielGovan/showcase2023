@@ -12,7 +12,7 @@ interface ExperienceProps extends ChildrenProps {
   employmentType: "Full-time" | "Contract" | "Part-time";
 }
 
-// Company type?
+// Company type? egs:
 // In-house product team in a multinational company
 // Agency project team
 
@@ -21,16 +21,14 @@ interface ExperienceProps extends ChildrenProps {
 // 2 years perm
 // 1 year part time
 
-// two types of layout? wordy (1 col, more info?) vs short (2 col, skip some data)
-
 const Company = ({ children }: ChildrenProps) => (
-  <h4 className="text-2xl print:text-xl font-semibold opacity-80 block font-sans m-0 leading-5 print:leading-4">
+  <h4 className="text-2xl print:text-xl font-semibold opacity-70 block font-sans m-0 leading-5 print:leading-4">
     {children}
   </h4>
 );
 
 const Dates = ({ children }: ChildrenProps) => (
-  <h4 className="text-base font-semibold opacity-60 block mb-1 font-sans leading-5">
+  <h4 className="text-base font-semibold opacity-50 block mb-1 font-sans leading-5">
     {children}
   </h4>
 );

@@ -6,8 +6,8 @@ interface AppendixItemProps {
 
 const AppendixItem = ({ title, content, href }: AppendixItemProps) => {
   return (
-    <li>
-      <h4 className="font-bold inline">{title}</h4>:{" "}
+    <li className="mb-4 print:mb-2 text-lg leading-6 print:text-base print:leading-5">
+      <h4 className="font-bold print:inline">{title}:</h4>{" "}
       {href ? (
         <a className="underline" href={href}>
           {content}
