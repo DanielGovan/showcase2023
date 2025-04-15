@@ -13,7 +13,7 @@ const HeaderArea = ({ header, intro }: HeaderAreaProps) => {
         {header}
       </h1>
       <div>
-        <p className="flex items-center font-light leading-7 print:leading-5 print:mt-0 text-2xl print:text-base max-w-2xl">
+        <p className="flex items-center font-light leading-7 print:leading-5 mt-2 print:mt-0 text-2xl print:text-base max-w-2xl">
           {intro}
         </p>
       </div>

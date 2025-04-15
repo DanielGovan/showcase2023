@@ -25,11 +25,11 @@ export default function Home() {
             design sensibility &amp; eye for detail. I thrive in
             cross-functional teams, love solving user-centric problems, &amp;
             get fired up by clean code, great UX, &amp; collaborative culture.
-            Whether it's shipping scalable UI libraries, leading design system
-            rollouts, or levelling up legacy platforms, I bring curiosity &amp;
-            pragmatism to every project. I'm looking to join a forward-thinking
-            team where I can keep learning, building, &amp; making a meaningful
-            impact.
+            Whether it&rsquo;s shipping scalable UI libraries, leading design
+            system rollouts, or levelling up legacy platforms, I bring curiosity
+            &amp; pragmatism to every project. I&rsquo;m looking to join a
+            forward-thinking team where I can keep learning, building, &amp;
+            making a meaningful impact.
           </Para>
         </section>
         <section>
@@ -38,7 +38,7 @@ export default function Home() {
             <Skill title="JS Frameworks">
               Focused on the evolving React ecosystem since 2018, lately in
               Next.js, but with recent experience with Astro &amp; previously
-              Gatsby &amp; React Native. Always keen to see what's next.
+              Gatsby &amp; React Native. Always keen to see what&rsquo;s next.
             </Skill>
             <Skill title="Styling">
               Lately Tailwind, previously frameworks like Chakra-UI, before that
