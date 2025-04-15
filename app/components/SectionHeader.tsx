@@ -2,7 +2,7 @@ import { ChildrenProps } from "./MainWrap";
 
 const SectionHeader = ({ children }: ChildrenProps) => {
   return (
-    <h2 className="text-4xl print:text-2xl print:mb-2 print:mt-4 print:break-after-avoid font-bold text-gray-200 font-sans tracking-wide mt-8 mb-4 border-b pb-1 border-gray-200 border-solid">
+    <h2 className="text-4xl print:text-2xl print:mb-2 print:mt-4 print:break-after-avoid font-bold text-gray-200 font-sans tracking-wide mt-10 mb-4 border-b pb-1 border-gray-200 border-solid">
       {children}
     </h2>
   );

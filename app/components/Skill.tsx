@@ -8,7 +8,7 @@ interface SkillProps extends ChildrenProps {
 
 const Skill = ({ title, children }: SkillProps) => {
   return (
-    <div className="break-inside-avoid print:leading-4">
+    <div className="break-inside-avoid print:leading-4 mb-4 print:mb-2">
       <Subheader>{title}</Subheader>
       <Para>{children}</Para>
     </div>

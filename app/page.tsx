@@ -70,8 +70,8 @@ export default function Home() {
               Storybook.
             </Skill>
             <Skill title="Knowledge sharing">
-              Value pairing, code reviews, &amp; mentorship opportunities in
-              cross-functional teams.
+              Value collaboration through pairing, code reviews, &amp;
+              mentorship opportunities in cross-functional teams.
             </Skill>
             <Skill title="Tooling">
               VS Code, Docker, Webpack, Yarn/PNPM, Git. CI/CD with Travis,
