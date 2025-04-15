@@ -417,7 +417,7 @@ export default function Home() {
               <AppendixItem
                 title="Website"
                 content="dangovan.com"
-                href="http://dangovan.com"
+                href="https://dangovan.com"
               />
               <AppendixItem
                 title="Email"
@@ -426,12 +426,12 @@ export default function Home() {
               />
               <AppendixItem
                 title="LinkedIn"
-                content="linkedin.com/in/%F0%9F%91%8D-daniel-govan-9227511/"
-                href="https://www.linkedin.com/in/%F0%9F%91%8D-daniel-govan-9227511/"
+                content="linkedin.com/in/dangovan"
+                href="https://www.linkedin.com/in/dangovan/"
               />
               <AppendixItem
                 title="Github"
-                content="github.com/danielgovan/"
+                content="github.com/danielgovan"
                 href="https://github.com/danielgovan/"
               />
             </ul>
