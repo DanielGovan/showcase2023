@@ -11,14 +11,14 @@ const FooterLink = ({ print, href, children, noprint }: PlaceProps) => {
     <div
       className={`${
         noprint ? "print:hidden" : "print:after:content-[attr(data-print)]"
-      } mb-4 print:text-sm print:block`}
+      } mb-4 print:text-sm print:p-0 print:m-0`}
       data-print={print}
     >
       <a
         target="_blank"
         rel="noreferrer"
         href={href}
-        className="flex items-center pr-4 print:hidden"
+        className="flex items-center pr-4 print:inline"
       >
         {children}
       </a>
