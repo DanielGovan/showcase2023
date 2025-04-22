@@ -26,9 +26,9 @@ export default function Home() {
             cross-functional teams, love solving user-centric problems, &amp;
             get fired up by clean code, great UX, &amp; collaborative culture.
             Whether it&rsquo;s shipping scalable UI libraries, leading design
-            system rollouts, or levelling up legacy platforms, I bring curiosity
-            &amp; pragmatism to every project. I&rsquo;m looking to join a
-            forward-thinking team where I can keep learning, building, &amp;
+            system rollouts, or levelling up legacy platforms, I approach every
+            project with curiosity & pragmatism, so I&rsquo;m looking to join a
+            forward-thinking team where I can keep learning, building, and
             making a meaningful impact.
           </Para>
         </section>
