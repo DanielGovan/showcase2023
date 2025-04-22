@@ -170,7 +170,7 @@ export default function Home() {
               </Para>
               <Para>
                 Worked with TypeScript, Redux Toolkit, Jest, React-i18next, PHP
-                templates (Twig, PHPTal), Jenkins pipelines.
+                templates (Twig, PHPTal, and Jenkins pipelines.
               </Para>
             </Place>
             <Place
@@ -200,7 +200,7 @@ export default function Home() {
               <Para>
                 Led frontend React &amp; Redux-heavy revamp for Cartoon
                 Network’s “Elliot from Earth,” with a new design, api &amp;
-                components, contributing to other interactive projects, SPAs
+                components. Also contributed to other interactive projects, SPAs
                 &amp; mini-games.
               </Para>
             </Place>
@@ -291,7 +291,7 @@ export default function Home() {
             >
               <Para>
                 Built out an evolving UX &amp; Frontend, tamed legacy startup
-                CSS, &amp; maintained an extensive design system using practical
+                CSS, and maintained an extensive design system using practical
                 BEM, Stylus/SASS &amp; Django templating, later moving to React.
               </Para>
               <Para>
@@ -365,7 +365,7 @@ export default function Home() {
               </Para>
               <Para>
                 Organised knowledge-sharing workshops, was tech voice on the
-                social media committee, &amp; in-house portraits & events
+                social media committee, and in-house portraits &amp; events
                 photographer.
               </Para>
             </Place>
@@ -395,9 +395,9 @@ export default function Home() {
             >
               <Para>
                 Starting as an Associate before promotion, I worked in HTML, CSS
-                &amp; jQ to reconcile the work of copywriters, designers &amp;
-                backend, to build &amp; localise sites & HTML emails for clients
-                like Intel, Vauxhall, Sky Movies, MSN &amp; MasterCard.
+                &amp; jQuery to reconcile the work of copywriters, designers
+                &amp; backend, to build &amp; localise sites & HTML emails for
+                clients like Intel, Vauxhall, Sky Movies, MSN &amp; MasterCard.
               </Para>
               <Para>
                 Led initiatives in bridging the tech &amp; creative teams.
