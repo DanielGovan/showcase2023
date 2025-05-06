@@ -6,7 +6,7 @@ import SectionHeader from "../components/SectionHeader";
 const ExperiencePermEra = () => {
   return (
     <>
-      <SectionHeader>Permenant roles 2006 – 2015</SectionHeader>
+      <SectionHeader>Permanent roles 2006 – 2015</SectionHeader>
       <Place
         title="Creative Technologist"
         company="MetaBroadcast"
