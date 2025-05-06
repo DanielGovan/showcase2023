@@ -1,6 +1,8 @@
 import { ChildrenProps } from "./MainWrap";
 import Subheader from "./Subheader";
 
+type repeatRole = { place?: string; date: string; blurb: JSX.Element };
+
 interface ExperienceProps extends ChildrenProps {
   company: string;
   companyType: string;
@@ -10,6 +12,7 @@ interface ExperienceProps extends ChildrenProps {
   location: string;
   locationType: "On-site" | "Remote" | "Hybrid";
   employmentType: "Full-time" | "Contract" | "Part-time";
+  repeatRoles?: repeatRole[];
 }
 
 // Company type? egs:
@@ -28,7 +31,7 @@ const Company = ({ children }: ChildrenProps) => (
 );
 
 const Dates = ({ children }: ChildrenProps) => (
-  <h4 className="text-base font-semibold opacity-50 block mb-1 font-sans leading-5">
+  <h4 className="text-base font-semibold opacity-50 block mb-1 font-sans leading-5 print:text-sm">
     {children}
   </h4>
 );
@@ -37,7 +40,7 @@ const SubInfo = ({ children }: ChildrenProps) => (
   <h5 className="hidden text-sm opacity-70 text-gray-900">{children}</h5>
 );
 
-const Experience = ({
+const Place = ({
   title,
   company,
   companyType,
@@ -47,22 +50,43 @@ const Experience = ({
   children,
   location,
   locationType,
+  repeatRoles,
 }: ExperienceProps) => {
+  const moreDates = dates.slice(1);
   return (
-    <div className="mb-6 print:mb-2 break-inside-avoid flex gap-4">
-      <div className="basis-1/5 print:basis-1/3">
-        <Subheader>{title}</Subheader>
-        <Company>{company}</Company>
-        <SubInfo>{companyType}</SubInfo>
-        <SubInfo>
-          {location}, {locationType}
-        </SubInfo>
-        <Dates>{dates}</Dates>
-        <SubInfo>{duration || employmentType}</SubInfo>
+    <div className="flex flex-col mb-6 print:mb-2 gap-1">
+      <div className="flex gap-4">
+        <div className="basis-1/5 print:basis-1/4">
+          <Subheader>{title}</Subheader>
+          <Company>{company}</Company>
+          <SubInfo>{companyType}</SubInfo>
+          <SubInfo>
+            {location}, {locationType}
+          </SubInfo>
+          <Dates>{dates}</Dates>
+          <SubInfo>{duration || employmentType}</SubInfo>
+        </div>
+        <div className="basis-4/5 print:basis-3/4">{children}</div>
       </div>
-      <div className="basis-4/5 print:basis-2/3">{children}</div>
+      {repeatRoles ? (
+        <>
+          {repeatRoles.map((item, i) => (
+            <div className="flex gap-4" key={i}>
+              <div className="basis-1/5 print:basis-1/4 mt-1">
+                {item.place ? <Company>{item.place}</Company> : <></>}
+                <Dates>{item.date}</Dates>
+              </div>
+              <div className="basis-4/5 print:basis-3/4">
+                <div>{item.blurb}</div>
+              </div>
+            </div>
+          ))}
+        </>
+      ) : (
+        <></>
+      )}
     </div>
   );
 };
 
-export default Experience;
+export default Place;
