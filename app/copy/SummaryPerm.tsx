@@ -11,8 +11,8 @@ const SummaryPerm = () => {
         &amp; the modern front-end stack, paired with a sharp design eye &amp;
         UX focus, I bring a pragmatic approach to everything from shipping
         scalable UI libraries, leading design system rollouts, to levelling up
-        legacy platforms. I'm looking to join a forward-thinking team where I
-        can keep learning, building, &amp; making an impact.
+        legacy platforms. I&rsquo;m looking to join a forward-thinking team
+        where I can keep learning, building, &amp; making an impact.
       </Para>
       <Para>
         After a successful decade of freelancing and contract gigs, I&rsquo;m
