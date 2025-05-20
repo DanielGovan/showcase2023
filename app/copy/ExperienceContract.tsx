@@ -205,7 +205,7 @@ const ExperienceContract = () => {
         title="Frontend Developer"
         company="VooDooBytes"
         companyType="Agency"
-        dates="Feb 2014 - Jun 2015"
+        dates="May 2014 - Jun 2015"
         employmentType="Contract"
         location="London"
         locationType="On-site"

@@ -29,7 +29,7 @@ const ExperienceContractBrief = () => {
             ),
           },
           {
-            date: "Feb 2014 - Jun 2015",
+            date: "May 2014 - Jun 2015",
             blurb: (
               <Para key={1}>
                 Developed sites &amp; eCommerce for clients like
