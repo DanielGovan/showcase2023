@@ -1,15 +1,17 @@
 import Layout from "./layout";
 
-import HeaderArea from "./components/HeaderArea";
-import MainWrap from "./components/MainWrap";
-import SkillsFull from "./copy/SkillsFull";
-import ExperienceContract from "./copy/ExperienceContract";
-import SummaryContract from "./copy/SummaryContract";
-import ExperienceARecent from "./copy/ExperienceARecent";
-import ExperiencePermEra from "./copy/ExperiencePermEra";
-import InfoSection from "./copy/InfoSection";
+import HeaderArea from "../components/HeaderArea";
+import MainWrap from "../components/MainWrap";
+import Link from "next/link";
 
-// CV aimed towards contract work
+// TODO
+// Sort the import statements from "../" to "@components" to "@copy" to "@utils" etc.
+// add a basic navbar
+// Do I need to update which Next.js version this is using?
+// add perma scrollbar to the main layout
+// Add a footer with links to social media, GitHub, etc.
+// add a print button for the CV pages
+// Add a dark mode toggle?
 
 export default function Home() {
   return (
@@ -18,24 +20,10 @@ export default function Home() {
         <HeaderArea
           header="Dan Govan"
           intro="Senior Front-End / JavaScript Developer with 20 years of experience crafting intuitive, user-focused interfaces and guiding teams toward scalable, modern front-end solutions."
+          showHomeButton={false}
         />
-        <section>
-          <SummaryContract />
-        </section>
-        <section>
-          <SkillsFull />
-        </section>
-        <div className="md:flex print:block gap-12">
-          <section>
-            <ExperienceARecent />
-            <ExperienceContract />
-            <ExperiencePermEra />
-          </section>
-
-          <section>
-            <InfoSection />
-          </section>
-        </div>
+        Welcome! Add intro, links, etc. to this page. This is the home page of
+        the CV site.
       </MainWrap>
     </Layout>
   );

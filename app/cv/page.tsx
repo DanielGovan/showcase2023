@@ -1,15 +1,15 @@
 import Layout from "../layout";
 
-import HeaderArea from "../components/HeaderArea";
-import MainWrap from "../components/MainWrap";
-import SummaryPerm from "../copy/SummaryPerm";
-import SkillsFull from "../copy/SkillsFull";
-import ExperiencePermEra from "../copy/ExperiencePermEra";
-import ExperienceContractBrief from "../copy/ExperienceContractBrief";
-import ExperienceARecent from "../copy/ExperienceARecent";
-import InfoSection from "../copy/InfoSection";
+import HeaderArea from "../../components/HeaderArea";
+import MainWrap from "../../components/MainWrap";
+import SkillsFull from "../../copy/SkillsFull";
+import ExperienceContract from "../../copy/ExperienceContract";
+import SummaryContract from "../../copy/SummaryContract";
+import ExperienceARecent from "../../copy/ExperienceARecent";
+import ExperiencePermEra from "../../copy/ExperiencePermEra";
+import InfoSection from "../../copy/InfoSection";
 
-// CV aimed towards perm work
+// CV aimed towards contract work
 
 export default function Home() {
   return (
@@ -20,7 +20,7 @@ export default function Home() {
           intro="Senior Front-End / JavaScript Developer with 20 years of experience crafting intuitive, user-focused interfaces and guiding teams toward scalable, modern front-end solutions."
         />
         <section>
-          <SummaryPerm />
+          <SummaryContract />
         </section>
         <section>
           <SkillsFull />
@@ -28,7 +28,7 @@ export default function Home() {
         <div className="md:flex print:block gap-12">
           <section>
             <ExperienceARecent />
-            <ExperienceContractBrief />
+            <ExperienceContract />
             <ExperiencePermEra />
           </section>
 
