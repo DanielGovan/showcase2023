@@ -1,8 +1,8 @@
-import Layout from "../layout";
+import Layout from "@app/layout";
 
-import HeaderArea from "../../components/HeaderArea";
-import MainWrap from "../../components/MainWrap";
-import SummaryPerm from "../../copy/SummaryPerm";
+import HeaderArea from "@components/HeaderArea";
+import MainWrap from "@components/MainWrap";
+import SummaryPerm from "@copy/SummaryPerm";
 
 export default function Home() {
   return (

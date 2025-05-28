@@ -1,12 +1,13 @@
-import Layout from "../../layout";
-import HeaderArea from "../../../components/HeaderArea";
-import MainWrap from "../../../components/MainWrap";
-import SummaryPerm from "../../../copy/SummaryPerm";
-import SkillsFull from "../../../copy/SkillsFull";
-import ExperiencePermEra from "../../../copy/ExperiencePermEra";
-import ExperienceContractBrief from "../../../copy/ExperienceContractBrief";
-import ExperienceARecent from "../../../copy/ExperienceARecent";
-import InfoSection from "../../../copy/InfoSection";
+import Layout from "@app/layout";
+
+import HeaderArea from "@components/HeaderArea";
+import MainWrap from "@components/MainWrap";
+import SummaryPerm from "@copy/SummaryPerm";
+import SkillsFull from "@copy/SkillsFull";
+import ExperiencePermEra from "@copy/ExperiencePermEra";
+import ExperienceContractBrief from "@copy/ExperienceContractBrief";
+import ExperienceARecent from "@copy/ExperienceARecent";
+import InfoSection from "@copy/InfoSection";
 
 // CV aimed towards perm work
 

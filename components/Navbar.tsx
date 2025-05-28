@@ -1,12 +1,5 @@
 import Link from "next/link";
-// In a server component
 import { headers } from "next/headers";
-import { is } from "cypress/types/bluebird";
-
-// export default function MyComponent() {
-
-//   // ...use pathname as needed
-// }
 
 type NavBarProps = {
   showHomeButton?: boolean;

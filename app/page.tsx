@@ -1,17 +1,17 @@
-import Layout from "./layout";
+import Layout from "@app/layout";
 
-import HeaderArea from "../components/HeaderArea";
-import MainWrap from "../components/MainWrap";
-import Link from "next/link";
+import HeaderArea from "@components/HeaderArea";
+import MainWrap from "@components/MainWrap";
 
 // TODO
+// Update which Next.js version this is using. What features are available? I hate that all the pages are called "page.tsx".
 // Sort the import statements from "../" to "@components" to "@copy" to "@utils" etc.
-// add a basic navbar
-// Do I need to update which Next.js version this is using?
-// add perma scrollbar to the main layout
 // Add a footer with links to social media, GitHub, etc.
-// add a print button for the CV pages
-// Add a dark mode toggle?
+// Make 3 case studies based on the three sites I have access to.
+// Add a link to the CV pages to download the CV as a printed PDF, will need an external library for this
+
+// LATER
+// Add a dark mode toggle??
 
 export default function Home() {
   return (

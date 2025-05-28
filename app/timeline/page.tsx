@@ -1,13 +1,10 @@
-import Layout from "../layout";
+import Layout from "@app/layout";
 
-import HeaderArea from "../../components/HeaderArea";
-import MainWrap from "../../components/MainWrap";
-import SummaryPerm from "../../copy/SummaryPerm";
-import SkillsFull from "../../copy/SkillsFull";
-import ExperiencePermEra from "../../copy/ExperiencePermEra";
-import ExperienceContractBrief from "../../copy/ExperienceContractBrief";
-import ExperienceARecent from "../../copy/ExperienceARecent";
-import InfoSection from "../../copy/InfoSection";
+import HeaderArea from "@components/HeaderArea";
+import MainWrap from "@components/MainWrap";
+import ExperiencePermEra from "@copy/ExperiencePermEra";
+import ExperienceARecent from "@copy/ExperienceARecent";
+import ExperienceContract from "@copy/ExperienceContract";
 
 export default function Home() {
   return (
@@ -21,7 +18,7 @@ export default function Home() {
         <div className="md:flex print:block gap-12">
           <section>
             <ExperienceARecent />
-            <ExperienceContractBrief />
+            <ExperienceContract />
             <ExperiencePermEra />
           </section>
         </div>

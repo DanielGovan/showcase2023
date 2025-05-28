@@ -1,4 +1,4 @@
-import NavBar from "./Navbar";
+import NavBar from "@components/Navbar";
 
 type HeaderAreaProps = {
   header: string;
