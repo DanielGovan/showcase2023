@@ -1,7 +1,3 @@
-import Layout from "@app/layout";
-import HeaderArea from "@components/HeaderArea";
-import MainWrap from "@components/MainWrap";
-
 // TODO
 // What Next 15 features are available? I hate that all the pages are called "page.tsx" tbh but
 
@@ -13,17 +9,11 @@ import MainWrap from "@components/MainWrap";
 // LATER
 // Add a dark mode toggle??
 
-export default async function HomePage() {
+export default function HomePage() {
   return (
-    <Layout>
-      <MainWrap>
-        <HeaderArea
-          header="Dan Govan"
-          intro="Senior Front-End / JavaScript Developer with 20 years of experience crafting intuitive, user-focused interfaces and guiding teams toward scalable, modern front-end solutions."
-        />
-        Welcome! Add intro, links, etc. to this page. This is the home page of
-        the CV site.
-      </MainWrap>
-    </Layout>
+    <>
+      Welcome! Add intro, links, etc. to this page. This is the home page of the
+      CV site.
+    </>
   );
 }
