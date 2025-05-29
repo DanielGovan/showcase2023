@@ -1,5 +1,4 @@
 // TODO
-// What Next 15 features are available? I hate that all the pages are called "page.tsx" tbh but
 
 // Fill out the pages with whatever comes to mind. Focus on fun and voice.
 // Add a footer with links to social media, GitHub, etc.
