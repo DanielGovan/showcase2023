@@ -1,5 +1,8 @@
 import type { Config } from "tailwindcss";
 
+// These config files are legacy as of tailwind 4 and will be removed in the future.
+// For the latest configuration, refer to the Tailwind CSS documentation.
+
 const config: Config = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",

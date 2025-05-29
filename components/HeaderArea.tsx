@@ -12,7 +12,7 @@ const HeaderArea = ({ header, intro }: HeaderAreaProps) => {
         className="mb-2 flex font-sans pt-2 justify-between
     print:text-black text-red-800"
       >
-        <h1 className="items-center font-light tracking-tight text-7xl lg:text-8xl print:text-5xl flex-shrink-0 mr-4">
+        <h1 className="items-center font-light tracking-tight text-7xl lg:text-8xl print:text-5xl shrink-0 mr-4">
           {header}
         </h1>
         <div>

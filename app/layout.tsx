@@ -16,7 +16,7 @@ export default function RootLayout({ children }: WithChildren) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className="subpixel-antialiased max-w-screen-xl text-2xl mx-auto font-serif px-4 print:px-0">
+        <div className="subpixel-antialiased max-w-(--breakpoint-xl) text-2xl mx-auto font-serif px-4 print:px-0">
           <HeaderArea
             header="Dan Govan"
             intro="Senior Front-End / JavaScript Developer with 20 years of experience crafting intuitive, user-focused interfaces and guiding teams toward scalable, modern front-end solutions."
