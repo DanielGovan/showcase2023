@@ -197,7 +197,7 @@ const ExperienceContract = () => {
           &amp; Django templating, later moving to React.
         </Para>
         <Para>
-          Carried out a platform-wide redesign with a single CSS retheme for a
+          Lead on a platform-wide redesign with a single CSS retheme for a
           seamless &amp; non-destructive transition.
         </Para>
       </Place>

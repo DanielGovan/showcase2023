@@ -78,12 +78,13 @@ const ExperienceContractBrief = () => {
         <Para>
           Joined a product team to build internal portals &amp; partner-facing
           features in a large React/Redux codebase of a ticket marketplace
-          platform.
+          platform Improved client visibility and moved more of the front end
+          from PHP templates to React.
         </Para>
         <Para>
-          Worked with mostly with TypeScript, Redux Toolkit and React-i18next,
-          but also testing with Jest, PHP templates (Twig, PHPTal) for legacy
-          page layout, and Jenkins CI/CD pipelines.
+          Worked with TypeScript, Redux Toolkit and React-i18next, but also
+          testing with Jest, Twig and PHPTal for legacy page layout, and Jenkins
+          CI/CD pipelines.
         </Para>
       </Place>
 
@@ -139,8 +140,8 @@ const ExperienceContractBrief = () => {
                   React.
                 </Para>
                 <Para>
-                  Carried out a platform-wide redesign with a single CSS retheme
-                  for a seamless &amp; non-destructive transition.
+                  Lead on a platform-wide redesign with a single CSS retheme for
+                  a seamless &amp; non-destructive transition.
                 </Para>
               </>
             ),
@@ -154,7 +155,7 @@ const ExperienceContractBrief = () => {
         </Para>
       </Place>
 
-      <SectionHeader>Shorter Consultant Roles</SectionHeader>
+      <SectionHeader>Shorter Freelance Roles</SectionHeader>
       <Place
         title=""
         company=""

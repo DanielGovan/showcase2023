@@ -3,18 +3,23 @@ import SectionHeader from "../components/SectionHeader";
 
 const SummaryContract = () => {
   return (
-    <>
+    <div className="flex-3/4 print:flex-3/5">
       <SectionHeader>Summary</SectionHeader>
       <Para>
-        I thrive in cross-functional teams that value collaboration, curiosity,
-        &amp; smart, scalable solutions. With an expertise in React, Typescript
-        &amp; the modern front-end stack, paired with a sharp design eye &amp;
-        UX focus, I bring a pragmatic approach to everything from shipping
-        scalable UI libraries, leading design system rollouts, to levelling up
-        legacy platforms. I&rsquo;m looking to join a forward-thinking team
-        where I can keep learning, building, &amp; making an impact.
+        I combine expertise in React, TypeScript, and the modern front-end stack
+        with a sharp eye for design and a strong focus on UX. Whether it&rsquo;s
+        shipping scalable UI libraries, leading design system rollouts, or
+        levelling up legacy platforms, I bring a pragmatic, impact-driven
+        approach to every project.
       </Para>
-    </>
+      <Para>
+        With 10 years experience in contract roles, I&rsquo;m also well-versed
+        in quickly adapting to new teams and environments. I love diving into
+        new codebases to pick up and improve on established patterns, and
+        I&rsquo;m eager to join a cross-functional team that values innovation
+        and quality.
+      </Para>
+    </div>
   );
 };
 

@@ -4,14 +4,16 @@ import SummaryContract from "@copy/SummaryContract";
 import ExperienceARecent from "@copy/ExperienceARecent";
 import ExperiencePermEra from "@copy/ExperiencePermEra";
 import InfoSection from "@copy/InfoSection";
+import AtAGlance from "@copy/AtAGlance";
 
 // CV aimed towards contract work
 
 export default function ContractCV() {
   return (
     <>
-      <section>
+      <section className="flex gap-10">
         <SummaryContract />
+        <AtAGlance />
       </section>
       <section>
         <SkillsFull />

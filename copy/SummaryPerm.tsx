@@ -3,23 +3,22 @@ import SectionHeader from "../components/SectionHeader";
 
 const SummaryPerm = () => {
   return (
-    <>
+    <div className="flex-3/4 print:flex-3/5">
       <SectionHeader>Professional Summary</SectionHeader>
       <Para>
-        I thrive in cross-functional teams that value collaboration, curiosity,
-        &amp; smart, scalable solutions. With an expertise in React, Typescript
-        &amp; the modern front-end stack, paired with a sharp design eye &amp;
-        UX focus, I bring a pragmatic approach to everything from shipping
-        scalable UI libraries, leading design system rollouts, to levelling up
-        legacy platforms.
+        I combine expertise in React, TypeScript, and the modern front-end stack
+        with a sharp eye for design and a strong focus on UX. Whether it&rsquo;s
+        shipping scalable UI libraries, leading design system rollouts, or
+        levelling up legacy platforms, I bring a pragmatic, impact-driven
+        approach to every project.
       </Para>
       <Para>
-        After a successful decade of freelancing and contract gigs, I&rsquo;m
-        keen to go deep with a product team where I can help shape the direction
-        of tech, and reap the dividends of the processes and DX improvements I
-        put in place, to build something meaningful together.
+        After a successful decade of freelancing and contract work, I&rsquo;m
+        ready to go deep with an in-house product team—somewhere I can help
+        shape the tech, culture, and processes while building something
+        meaningful together over the long term.
       </Para>
-    </>
+    </div>
   );
 };
 

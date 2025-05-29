@@ -35,7 +35,7 @@ type NavBarProps = {};
 
 const NavBar = ({}: NavBarProps) => {
   return (
-    <nav className="gap-2 mb-2 flex items-start font-sans pt-2">
+    <nav className="gap-2 mb-2 flex items-start font-sans pt-2 print:hidden">
       <NavItem href="/" className="bg-red-500">
         Home
       </NavItem>

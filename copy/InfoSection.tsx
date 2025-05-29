@@ -4,7 +4,7 @@ import SectionHeader from "../components/SectionHeader";
 const InfoSection = () => (
   <>
     <SectionHeader>Info</SectionHeader>
-    <ul>
+    <ul className="list-none flex flex-col gap-6 print:gap-2 print:flex-wrap print:flex-row">
       <AppendixItem
         title="Education"
         content="2004 Warwick University, BEng in Mechanical Engineering "
