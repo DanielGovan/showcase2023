@@ -3,14 +3,9 @@ import NavBar from "@components/Navbar";
 type HeaderAreaProps = {
   header: string;
   intro: string;
-  showHomeButton?: boolean;
 };
 
-const HeaderArea = ({
-  header,
-  intro,
-  showHomeButton = true,
-}: HeaderAreaProps) => {
+const HeaderArea = ({ header, intro }: HeaderAreaProps) => {
   return (
     <div>
       <div
@@ -26,7 +21,7 @@ const HeaderArea = ({
           </p>
         </div>
       </div>
-      <NavBar showHomeButton={showHomeButton} />
+      <NavBar />
     </div>
   );
 };

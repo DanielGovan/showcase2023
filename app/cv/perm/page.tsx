@@ -11,7 +11,7 @@ import InfoSection from "@copy/InfoSection";
 
 // CV aimed towards perm work
 
-export default function Home() {
+export default async function PermCV() {
   return (
     <Layout>
       <MainWrap>

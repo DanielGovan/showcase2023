@@ -1,5 +1,4 @@
 import Layout from "@app/layout";
-
 import HeaderArea from "@components/HeaderArea";
 import MainWrap from "@components/MainWrap";
 
@@ -14,14 +13,13 @@ import MainWrap from "@components/MainWrap";
 // LATER
 // Add a dark mode toggle??
 
-export default function Home() {
+export default async function HomePage() {
   return (
     <Layout>
       <MainWrap>
         <HeaderArea
           header="Dan Govan"
           intro="Senior Front-End / JavaScript Developer with 20 years of experience crafting intuitive, user-focused interfaces and guiding teams toward scalable, modern front-end solutions."
-          showHomeButton={false}
         />
         Welcome! Add intro, links, etc. to this page. This is the home page of
         the CV site.

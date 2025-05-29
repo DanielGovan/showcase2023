@@ -1,7 +1,8 @@
 import { ChildrenProps } from "./MainWrap";
 import Subheader from "./Subheader";
+import React from "react";
 
-type repeatRole = { place?: string; date: string; blurb: JSX.Element };
+type repeatRole = { place?: string; date: string; blurb: React.ReactNode };
 
 interface ExperienceProps extends ChildrenProps {
   company: string;

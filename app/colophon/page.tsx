@@ -1,10 +1,8 @@
 import Layout from "@app/layout";
-
 import HeaderArea from "@components/HeaderArea";
 import MainWrap from "@components/MainWrap";
-import SkillsFull from "@copy/SkillsFull";
 
-export default function Home() {
+export default async function ColophonPage() {
   return (
     <Layout>
       <MainWrap>

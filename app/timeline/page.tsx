@@ -6,7 +6,7 @@ import ExperiencePermEra from "@copy/ExperiencePermEra";
 import ExperienceARecent from "@copy/ExperienceARecent";
 import ExperienceContract from "@copy/ExperienceContract";
 
-export default function Home() {
+export default async function TimelinePage() {
   return (
     <Layout>
       <MainWrap>

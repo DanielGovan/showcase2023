@@ -11,7 +11,7 @@ import InfoSection from "@copy/InfoSection";
 
 // CV aimed towards contract work
 
-export default function Home() {
+export default async function ContractCV() {
   return (
     <Layout>
       <MainWrap>
