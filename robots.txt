@@ -1,2 +1,2 @@
 User-agent: *
-Disallow: /*/perm
+Disallow: */cv/perm

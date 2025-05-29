@@ -4,8 +4,9 @@ import HeaderArea from "@components/HeaderArea";
 import MainWrap from "@components/MainWrap";
 
 // TODO
-// Update which Next.js version this is using. What features are available? I hate that all the pages are called "page.tsx".
-// Sort the import statements from "../" to "@components" to "@copy" to "@utils" etc.
+// What Next 15 features are available? I hate that all the pages are called "page.tsx" tbh but
+
+// Fill out the pages with whatever comes to mind. Focus on fun and voice.
 // Add a footer with links to social media, GitHub, etc.
 // Make 3 case studies based on the three sites I have access to.
 // Add a link to the CV pages to download the CV as a printed PDF, will need an external library for this

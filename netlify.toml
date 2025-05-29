@@ -1,0 +1,6 @@
+[[redirects]]
+  from = "/robots.txt"
+  to = "/robots-dev.txt"
+  status = 200
+  force = true
+  conditions = { Branch = "dev" }

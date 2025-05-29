@@ -5,7 +5,7 @@ type NavBarProps = {
   showHomeButton?: boolean;
 };
 
-const NavItem = ({
+const NavItem = async ({
   href,
   children,
   className,
@@ -14,7 +14,8 @@ const NavItem = ({
   children: React.ReactNode;
   className: string;
 }) => {
-  const pathname = headers().get("x-invoke-path") || "";
+  const headerObj = await headers();
+  const pathname = headerObj.get("x-invoke-path") || "";
   const isActive = pathname === href;
   if (isActive)
     return (
@@ -42,23 +43,27 @@ const NavBar = ({}: NavBarProps) => {
         Home
       </NavItem>
 
-      <NavItem href="/skills" className="bg-purple-500">
+      <NavItem href="/skills" className="bg-orange-500">
         Skills
       </NavItem>
 
-      <NavItem href="/about" className="bg-blue-500">
+      <NavItem href="/about" className="bg-yellow-500">
         About Dan
       </NavItem>
 
-      <NavItem href="/timeline" className="bg-orange-500">
+      <NavItem href="/timeline" className="bg-green-500">
         20 year timeline
       </NavItem>
 
-      <NavItem href="/cv/perm" className="bg-teal-500">
+      <NavItem href="/timeline" className="bg-teal-500">
+        20 year timeline
+      </NavItem>
+
+      <NavItem href="/cv/perm" className="bg-blue-500">
         Permanent CV
       </NavItem>
 
-      <NavItem href="/cv" className="bg-green-500">
+      <NavItem href="/cv" className="bg-purple-500">
         Contract CV
       </NavItem>
     </nav>
