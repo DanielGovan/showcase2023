@@ -1,13 +1,13 @@
 "use client";
 
+import { WithChildren } from "@app/types";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
-type NavItemProps = {
+type NavItemProps = WithChildren<{
   href: string;
-  children: React.ReactNode;
   className: string;
-};
+}>;
 
 const NavItem = ({ href, children, className }: NavItemProps) => {
   const currentPath = usePathname();

@@ -1,7 +1,6 @@
-import React from "react";
-import { ChildrenProps } from "./MainWrap";
+import { WithChildren } from "@app/types";
 
-const NoColWrap = ({ children }: ChildrenProps) => {
+const NoColWrap = ({ children }: WithChildren) => {
   return <div className="break-inside-avoid-column">{children}</div>;
 };
 

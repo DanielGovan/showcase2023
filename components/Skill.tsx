@@ -1,10 +1,8 @@
-import { ChildrenProps } from "./MainWrap";
+import { WithChildren } from "@app/types";
 import Para from "./Para";
 import Subheader from "./Subheader";
 
-interface SkillProps extends ChildrenProps {
-  title: string;
-}
+type SkillProps = WithChildren<{ title: string }>;
 
 const Skill = ({ title, children }: SkillProps) => {
   return (

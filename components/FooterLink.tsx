@@ -1,10 +1,10 @@
-import { ChildrenProps } from "./MainWrap";
+import { WithChildren } from "@app/types";
 
-interface PlaceProps extends ChildrenProps {
+type PlaceProps = WithChildren<{
   print: string;
   href: string;
   noprint?: boolean;
-}
+}>;
 
 const FooterLink = ({ print, href, children, noprint }: PlaceProps) => {
   return (

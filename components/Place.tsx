@@ -1,10 +1,9 @@
-import { ChildrenProps } from "./MainWrap";
+import { WithChildren } from "@app/types";
 import Subheader from "./Subheader";
-import React from "react";
 
 type repeatRole = { place?: string; date: string; blurb: React.ReactNode };
 
-interface ExperienceProps extends ChildrenProps {
+type ExperienceProps = WithChildren<{
   company: string;
   companyType: string;
   title: string;
@@ -14,7 +13,7 @@ interface ExperienceProps extends ChildrenProps {
   locationType: "On-site" | "Remote" | "Hybrid";
   employmentType: "Full-time" | "Contract" | "Part-time";
   repeatRoles?: repeatRole[];
-}
+}>;
 
 // Company type? egs:
 // In-house product team in a multinational company
@@ -25,19 +24,19 @@ interface ExperienceProps extends ChildrenProps {
 // 2 years perm
 // 1 year part time
 
-const Company = ({ children }: ChildrenProps) => (
+const Company = ({ children }: WithChildren) => (
   <h4 className="text-2xl print:text-xl font-semibold opacity-70 block font-sans m-0 leading-5 print:leading-4">
     {children}
   </h4>
 );
 
-const Dates = ({ children }: ChildrenProps) => (
+const Dates = ({ children }: WithChildren) => (
   <h4 className="text-base font-semibold opacity-50 block mb-1 font-sans leading-5 print:text-sm">
     {children}
   </h4>
 );
 
-const SubInfo = ({ children }: ChildrenProps) => (
+const SubInfo = ({ children }: WithChildren) => (
   <h5 className="hidden text-sm opacity-70 text-gray-900">{children}</h5>
 );
 
