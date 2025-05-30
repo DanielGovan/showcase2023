@@ -2,6 +2,8 @@
   "extends": ["next/core-web-vitals", "plugin:react/recommended"],
   "plugins": ["react"],
   "rules": {
-    "react/no-unescaped-entities": "error"
+    "no-unused-vars": "warn",
+    "react/no-unescaped-entities": "error",
+    "react/react-in-jsx-scope": "off"
   }
 }

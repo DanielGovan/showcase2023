@@ -52,7 +52,7 @@ const Place = ({
   locationType,
   repeatRoles,
 }: ExperienceProps) => {
-  const moreDates = dates.slice(1);
+  // const moreDates = dates.slice(1);
   return (
     <div className="flex flex-col mb-6 print:mb-2 gap-1">
       <div className="flex gap-4">

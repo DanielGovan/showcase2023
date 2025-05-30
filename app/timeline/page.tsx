@@ -8,7 +8,6 @@ export default function TimelinePage() {
   return (
     <>
       <TodoList>
-        <li>(Phase 2 tbh)</li>
         <li>
           Scrolling from 2002 to now, with links, jobs I&rsquo;ve had, big
           momements, skills i&rsquo;ve picked up. Aka an interactive timeline of

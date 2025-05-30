@@ -5,27 +5,12 @@ import ExperienceARecent from "@copy/ExperienceARecent";
 import ExperiencePermEra from "@copy/ExperiencePermEra";
 import InfoSection from "@copy/InfoSection";
 import AtAGlance from "@copy/AtAGlance";
-import TodoList from "@components/TodoList";
 
 // Generalised CV for people to stumble across
 
 export default function ContractCV() {
   return (
     <>
-      <TodoList>
-        <li>Add a download link for the PDF version</li>
-        <li>Add a secret link to the others?</li>
-        <li>
-          <a className="underline" href="/cv/contract/">
-            Contract
-          </a>
-        </li>
-        <li>
-          <a className="underline" href="/cv/perm/">
-            Perm
-          </a>
-        </li>
-      </TodoList>
       <section className="flex gap-10">
         <Summary />
         <AtAGlance />
