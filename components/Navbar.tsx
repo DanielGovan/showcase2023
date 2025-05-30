@@ -6,16 +6,15 @@ import { usePathname } from "next/navigation";
 
 type NavItemProps = WithChildren<{
   href: string;
-  className: string;
 }>;
 
-const NavItem = ({ href, children, className }: NavItemProps) => {
+const NavItem = ({ href, children }: NavItemProps) => {
   const currentPath = usePathname();
   const isActive = currentPath === href;
   if (isActive)
     return (
       <span
-        className={`m-0 px-4 py-2 rounded ${className}   transition-opacity duration-200 ease-in-out cursor-default`}
+        className={`m-0 px-4 py-2 rounded transition-opacity duration-200 ease-in-out cursor-default`}
       >
         {children}
       </span>
@@ -23,7 +22,7 @@ const NavItem = ({ href, children, className }: NavItemProps) => {
   return (
     <Link href={href}>
       <button
-        className={`m-0 px-4 py-2 rounded ${className} opacity-70 hover:opacity-100 transition-opacity duration-200 ease-in-out cursor-pointer`}
+        className={`m-0 px-4 py-2 rounded opacity-70 hover:opacity-100 transition-opacity duration-200 ease-in-out cursor-pointer`}
       >
         {children}
       </button>
@@ -35,28 +34,14 @@ type NavBarProps = {};
 
 const NavBar = ({}: NavBarProps) => {
   return (
-    <nav className="gap-2 mb-2 flex items-start font-sans pt-2 print:hidden">
-      <NavItem href="/" className="bg-red-500">
-        Home
-      </NavItem>
-      <NavItem href="/skills" className="bg-orange-500">
-        Skills
-      </NavItem>
-      <NavItem href="/about" className="bg-yellow-500">
-        About Dan
-      </NavItem>
-      <NavItem href="/timeline" className="bg-green-500">
-        20 year timeline
-      </NavItem>
-      <NavItem href="/colophon" className="bg-teal-500">
-        Colophon
-      </NavItem>
-      <NavItem href="/cv/perm" className="bg-blue-500">
-        Permanent CV
-      </NavItem>
-      <NavItem href="/cv" className="bg-purple-500">
-        Contract CV
-      </NavItem>
+    <nav className="gap-2 flex items-center font-sans print:hidden border-b border-gray-200 border-t">
+      <NavItem href="/">Home</NavItem>
+      <NavItem href="/skills">Skills</NavItem>
+      <NavItem href="/about">About Dan</NavItem>
+      <NavItem href="/timeline">20 year timeline</NavItem>
+      <NavItem href="/colophon">Colophon</NavItem>
+      <NavItem href="/cv/perm">Permanent CV</NavItem>
+      <NavItem href="/cv">Contract CV</NavItem>
     </nav>
   );
 };

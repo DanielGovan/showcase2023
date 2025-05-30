@@ -14,7 +14,7 @@ const SummaryPerm = () => {
       </Para>
       <Para>
         After a successful decade of freelancing and contract work, I&rsquo;m
-        ready to go deep with an in-house product team—somewhere I can help
+        ready to go deep with an in-house product team; somewhere I can help
         shape the tech, culture, and processes while building something
         meaningful together over the long term.
       </Para>
