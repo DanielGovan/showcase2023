@@ -14,7 +14,7 @@ const NavItem = ({ href, children }: NavItemProps) => {
   if (isActive)
     return (
       <span
-        className={`m-0 px-4 py-2 rounded transition-opacity duration-200 ease-in-out cursor-default`}
+        className={`m-0 px-4 py-2 text-center rounded transition-opacity duration-200 ease-in-out cursor-default`}
       >
         {children}
       </span>
@@ -36,12 +36,16 @@ const NavBar = ({}: NavBarProps) => {
   return (
     <nav className="gap-2 flex items-center font-sans print:hidden border-b border-gray-200 border-t">
       <NavItem href="/">Home</NavItem>
-      <NavItem href="/skills">Skills</NavItem>
-      <NavItem href="/about">About Dan</NavItem>
-      <NavItem href="/timeline">20 year timeline</NavItem>
-      <NavItem href="/colophon">Colophon</NavItem>
-      <NavItem href="/cv/perm">Permanent CV</NavItem>
-      <NavItem href="/cv">Contract CV</NavItem>
+      {/* <NavItem href="/skills">Skills</NavItem> */}
+      <NavItem href="/experience">Experience</NavItem>
+      <NavItem href="/about">About</NavItem>
+      {/* <NavItem href="/timeline">20 year timeline</NavItem> */}
+      <NavItem href="/case-studies/octopart">Octopart</NavItem>
+      <NavItem href="/case-studies/notanotheracademy">
+        Not Another Academy
+      </NavItem>
+      <NavItem href="/case-studies/lightbydan">Lightbydan</NavItem>
+      <NavItem href="/cv">CV</NavItem>
     </nav>
   );
 };

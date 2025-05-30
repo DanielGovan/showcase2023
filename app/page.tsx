@@ -1,18 +1,28 @@
-// TODO
-
-// Fill out the pages with whatever comes to mind. Focus on fun and voice.
-// Add a footer with links to social media, GitHub, etc.
-// Make 3 case studies based on the three sites I have access to.
-// Add a link to the CV pages to download the CV as a printed PDF, will need an external library for this
-
-// LATER
-// Add a dark mode toggle??
+import AtAGlance from "@copy/AtAGlance";
+import SkillsFull from "@copy/SkillsFull";
+import Summary from "@copy/Summary";
 
 export default function HomePage() {
   return (
     <>
-      Welcome! Add intro, links, etc. to this page. This is the home page of the
-      CV site.
+      {/* <h1>Welcome to My Portfolio</h1>
+      <Para>
+        This is a showcase of my work, skills, and experiences in web
+        development. Explore my case studies, timeline, and skills to learn more
+        about my journey and expertise.
+      </Para>
+      <Para>
+        Feel free to reach out if you have any questions or would like to
+        collaborate on a project!
+      </Para> */}
+
+      <section className="flex gap-10">
+        <Summary />
+        <AtAGlance />
+      </section>
+      <section>
+        <SkillsFull />
+      </section>
     </>
   );
 }

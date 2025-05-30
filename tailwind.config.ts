@@ -1,7 +1,6 @@
 import type { Config } from "tailwindcss";
 
-// These config files are legacy as of tailwind 4 and will be removed in the future.
-// For the latest configuration, refer to the Tailwind CSS documentation.
+// These config files are legacy as of tailwind 4 and should be replaced by equivalent theme variables https://tailwindcss.com/docs/theme
 
 const config: Config = {
   content: [
