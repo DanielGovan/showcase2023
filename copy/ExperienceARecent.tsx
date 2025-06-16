@@ -58,7 +58,7 @@ const ExperienceARecent = () => {
         </Para>
         <Ul>
           <Li>
-            Led migration from Styled JSX to Tailwind after evaluating multiple
+            Led Styled JSX to Tailwind migration after evaluating multiple
             styling strategies
           </Li>
           <Li>

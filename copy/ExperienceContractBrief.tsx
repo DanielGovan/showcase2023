@@ -6,7 +6,9 @@ import SectionHeader from "../components/SectionHeader";
 const ExperienceContractBrief = () => {
   return (
     <>
-      <SectionHeader>Frontend Consultant: 2014 – 2023</SectionHeader>
+      <h2 className="text-4xl print:text-xl print:mb-1 print:mt-0 print:break-after-avoid font-bold text-gray-200 font-sans tracking-wide mt-10 mb-4 border-b pb-1 print:pb-0 border-gray-200 border-solid">
+        Frontend Consultant: 2014 - 2023
+      </h2>
 
       <Place
         title="Senior Frontend Developer"
@@ -44,7 +46,7 @@ const ExperienceContractBrief = () => {
         <Para>
           Key role in developing booking platforms &amp; a CMS agency showcase
           from the ground up, using TypeScript, React, and Next.js for dynamic
-          SSR &amp; seamless user experience.
+          SSR &amp; seamless UX.
         </Para>
         <Ul>
           <Li>
@@ -105,7 +107,7 @@ const ExperienceContractBrief = () => {
         </Para>
       </Place>
       <Place
-        title="Senior Frontend Developer"
+        title="Senior FE Dev"
         company="Rehab Agency"
         companyType="Agency"
         dates="Oct 2019 - Feb 2020"
@@ -136,12 +138,9 @@ const ExperienceContractBrief = () => {
                 <Para>
                   Built out an evolving UX &amp; Frontend, tamed legacy startup
                   CSS, and maintained an extensive design system using practical
-                  BEM, Stylus/SASS &amp; Django templating, later moving to
-                  React.
-                </Para>
-                <Para>
-                  Lead on a platform-wide redesign with a single CSS retheme for
-                  a seamless &amp; non-destructive transition.
+                  BEM, Stylus/SASS &amp; Django templating, moving to React.
+                  Lead on a platform-wide redesign with a CSS retheme for a
+                  seamless &amp; non-destructive transition.
                 </Para>
               </>
             ),
@@ -154,8 +153,9 @@ const ExperienceContractBrief = () => {
           improving the user experience and streamlining the sign-up process.
         </Para>
       </Place>
-
-      <SectionHeader>Shorter Freelance Roles</SectionHeader>
+      <h2 className="text-4xl print:text-xl print:mb-0 print:mt-0 print:break-after-avoid font-bold text-gray-200 font-sans tracking-wide mt-10 mb-4 border-b pb-1 print:pb-0 border-gray-200 border-solid">
+        Other Freelance Roles
+      </h2>
       <Place
         title=""
         company=""

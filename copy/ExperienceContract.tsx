@@ -17,7 +17,7 @@ const ExperienceContract = () => {
         <Para>
           Key role in developing booking platforms &amp; a CMS agency showcase
           from the ground up, using TypeScript, React, and Next.js for dynamic
-          SSR &amp; seamless user experience.
+          SSR &amp; seamless UX.
         </Para>
         <Ul>
           <Li>

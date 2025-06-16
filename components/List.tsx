@@ -6,7 +6,7 @@ export const Ul = ({ children }: WithChildren) => {
 
 export const Li = ({ children }: WithChildren) => {
   return (
-    <li className="marker:text-red-800 text-lg print:text-sm print:leading-5 mb-2 print:mb-2">
+    <li className="marker:text-red-800 text-lg print:text-sm print:leading-4 mb-2 print:mb-2">
       {children}
     </li>
   );
