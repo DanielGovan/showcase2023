@@ -25,13 +25,13 @@ type ExperienceProps = WithChildren<{
 // 1 year part time
 
 const Company = ({ children }: WithChildren) => (
-  <h4 className="text-2xl print:text-xl font-semibold opacity-70 block font-sans m-0 leading-5 print:leading-4">
+  <h4 className="text-2xl print:text-xl font-bold text-gray-700 block font-sans m-0 leading-5 print:leading-4">
     {children}
   </h4>
 );
 
 const Dates = ({ children }: WithChildren) => (
-  <h4 className="text-base font-semibold opacity-50 block mb-1 font-sans leading-5 print:text-sm">
+  <h4 className="text-base font-bold text-gray-400 block mb-1 font-sans leading-5 print:text-sm">
     {children}
   </h4>
 );
