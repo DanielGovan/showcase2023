@@ -1,12 +1,12 @@
 import { Li, Ul } from "../components/List";
 import Para from "../components/Para";
 import Place from "../components/Place";
-import SectionHeader from "../components/SectionHeader";
+import SubSectionHeader from "../components/SubSectionHeader";
 
 const ExperiencePermEra = () => {
   return (
     <>
-      <SectionHeader>Permanent roles 2006 – 2015</SectionHeader>
+      <SubSectionHeader>Permanent roles 2006 - 2015</SubSectionHeader>
       <Place
         title="Creative Technologist"
         company="MetaBroadcast"

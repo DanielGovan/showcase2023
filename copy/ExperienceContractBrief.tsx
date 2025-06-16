@@ -1,3 +1,4 @@
+import SubSectionHeader from "@components/SubSectionHeader";
 import { Li, Ul } from "../components/List";
 import Para from "../components/Para";
 import Place from "../components/Place";
@@ -6,9 +7,7 @@ import SectionHeader from "../components/SectionHeader";
 const ExperienceContractBrief = () => {
   return (
     <>
-      <h2 className="text-4xl print:text-xl print:mb-1 print:mt-0 print:break-after-avoid font-bold text-gray-200 font-sans tracking-wide mt-10 mb-4 border-b pb-1 print:pb-0 border-gray-200 border-solid">
-        Frontend Consultant: 2014 - 2023
-      </h2>
+      <SubSectionHeader>Frontend Consultant: 2014 - 2023</SubSectionHeader>
 
       <Place
         title="Senior Frontend Developer"
@@ -153,9 +152,7 @@ const ExperienceContractBrief = () => {
           improving the user experience and streamlining the sign-up process.
         </Para>
       </Place>
-      <h2 className="text-4xl print:text-xl print:mb-0 print:mt-0 print:break-after-avoid font-bold text-gray-200 font-sans tracking-wide mt-10 mb-4 border-b pb-1 print:pb-0 border-gray-200 border-solid">
-        Other Freelance Roles
-      </h2>
+      <SubSectionHeader>Other Freelance Roles</SubSectionHeader>
       <Place
         title=""
         company=""
