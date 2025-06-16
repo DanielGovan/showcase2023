@@ -1,4 +1,8 @@
 import AtAGlance from "@copy/AtAGlance";
+import ExperienceARecent from "@copy/ExperienceARecent";
+import ExperienceContract from "@copy/ExperienceContract";
+import ExperiencePermEra from "@copy/ExperiencePermEra";
+import InfoSection from "@copy/InfoSection";
 import SkillsFull from "@copy/SkillsFull";
 import Summary from "@copy/Summary";
 
@@ -23,6 +27,17 @@ export default function HomePage() {
       <section>
         <SkillsFull />
       </section>
+      <div className="md:flex print:block gap-12">
+        <section>
+          <ExperienceARecent />
+          <ExperienceContract />
+          <ExperiencePermEra />
+        </section>
+
+        <section>
+          <InfoSection />
+        </section>
+      </div>
     </>
   );
 }

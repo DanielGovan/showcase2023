@@ -33,6 +33,8 @@ const NavItem = ({ href, children }: NavItemProps) => {
 type NavBarProps = {};
 
 const NavBar = ({}: NavBarProps) => {
+  const currentPath = usePathname();
+  if (currentPath === "/") return null; // Hide navbar on homepage
   return (
     <nav className="gap-2 flex items-center font-sans print:hidden border-b border-gray-200 border-t">
       <NavItem href="/">Home</NavItem>
