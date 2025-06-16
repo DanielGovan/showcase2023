@@ -19,7 +19,7 @@ export default function RootLayout({ children }: WithChildren) {
         <div className="subpixel-antialiased max-w-(--breakpoint-xl) text-2xl mx-auto font-serif px-4 print:px-0">
           <HeaderArea
             header="Dan Govan"
-            intro="Senior Front-End Developer with 20 years experience being the glue between design &amp; development, creating intuitive, user-focused interfaces, and guiding teams toward modern, scalable solutions."
+            intro="Senior Front-End Developer with 20 years experience creating intuitive, user-focused interfaces, and guiding teams toward modern solutions."
           />
           <div role="main">{children}</div>
         </div>

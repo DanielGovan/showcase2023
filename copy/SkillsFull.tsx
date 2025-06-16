@@ -8,10 +8,17 @@ const SkillsFull = () => {
       <div>
         <SectionHeader>Skills</SectionHeader>
         <ColumnWrap>
-          <Skill title="JS Frameworks">
+          <Skill title="JavaScript & Frameworks">
             Focused on the evolving React ecosystem since 2018, with the last
-            few years in Next.js, alongside exploration of Astro and Gatsby.
-            Always eager to experiment with the latest frameworks.
+            few years in Next.js, alongside projects in Astro and Gatsby. Mainly
+            TypeScript for SPAs &amp; SSR apps in Next.js (v12–15). REST APIs,
+            Redux, Context, React Query, &amp; GraphQL. Bits of backend in Deno,
+            Node &amp; PHP, keen to expand to full-stack.
+          </Skill>
+          <Skill title="Testing">
+            E2E with Playwright. Unit testing with Jest, React Testing Library.
+            AB testing with Optimizely. Visual regression (and UX approval) with
+            Chromatic.
           </Skill>
           <Skill title="Styling">
             Proficient in Tailwind CSS for DX &amp; scalability, with experience
@@ -24,28 +31,17 @@ const SkillsFull = () => {
             Vauxhall, Colgate). Expertise in building scalable, device-agnostic
             UIs.
           </Skill>
-          <Skill title="JavaScript">
-            Mainly TypeScript for SPAs &amp; SSR apps in Next.js (v12–15).
-            Experience includes REST APIs, Redux, Context, React Query, &amp;
-            GraphQL. Some backend in Node &amp; PHP, keen to expand to
-            full-stack roles.
-          </Skill>
-          <Skill title="Testing">
-            E2E with Playwright. Unit testing with Jest, React Testing Library.
-            AB testing with Optimizely. Visual regression (and UX approval) with
-            Chromatic.
-          </Skill>
           <Skill title="Design systems">
             Advocate for design-system thinking to scale quality and
             consistency, from rapid prototyping to greenfield component
-            libraries to maintaining living style guides. Long experience
-            extracting assets (Photoshop to Figma) and identifying UX gaps.
+            libraries to maintaining living style guides.
+            {/* Long experience
+            extracting assets (Photoshop to Figma) and identifying UX gaps. */}
           </Skill>
           <Skill title="Collaboration">
             Enjoy partnering with UX and Product from discovery to delivery.
             Value teamwork through pairing, code reviews, knowledge sharing and
-            mentoring. Staying sharp in the fast-paced frontend ecosystem is
-            vital.
+            mentoring.
           </Skill>
           <Skill title="Tooling">
             VS Code, Docker, Webpack, Yarn/PNPM, Git. CI/CD with Travis,

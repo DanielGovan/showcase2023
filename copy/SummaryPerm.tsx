@@ -6,17 +6,18 @@ const SummaryPerm = () => {
     <div className="flex-3/4 print:flex-3/5">
       <SectionHeader>Professional Summary</SectionHeader>
       <Para>
-        I combine expertise in React, TypeScript, and the modern front-end stack
-        with a sharp eye for design and a strong focus on UX. Whether it&rsquo;s
-        shipping scalable UI libraries, leading design system rollouts, or
-        levelling up legacy platforms, I bring a pragmatic, impact-driven
-        approach to every project.
+        Hi, I'm Dan! As well as the standard expertise in React and Typescript,
+        20 years of being the glue between design &amp; development has given me
+        a collaborative focus and a great eye for UI, while 10 years in contract
+        roles means I&rsquo;m well-versed in adapting to new teams, patterns and
+        codebases; vital qualities in the ever changing front end stack.
       </Para>
       <Para>
-        After a successful decade of freelancing and contract work, I&rsquo;m
-        ready to go deep with an in-house product team; somewhere I can help
-        shape the tech, culture, and processes while building something
-        meaningful together over the long term.
+        Whether I'm leading design system rollouts, shipping scalable UI
+        libraries, or dragging legacy platforms into the modern era, I bring a
+        curious, pragmatic, user-first approach to every project. I'm now keen
+        to join an in-house product team where I can help shape the tech,
+        culture, and processes together over the longer term.
       </Para>
     </div>
   );

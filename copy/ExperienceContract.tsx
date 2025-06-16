@@ -75,7 +75,7 @@ const ExperienceContract = () => {
         </Para>
       </Place>
       <Place
-        title="Full Stack Developer"
+        title="Full Stack Dev"
         company="BDH"
         companyType="Agency"
         dates="Feb 2021"
@@ -107,7 +107,7 @@ const ExperienceContract = () => {
         </Para>
       </Place>
       <Place
-        title="Senior Frontend Developer"
+        title="Senior FE Dev"
         company="EDD London"
         companyType="Agency"
         dates="Feb 2020 - Jun 2020"
@@ -123,7 +123,7 @@ const ExperienceContract = () => {
         </Para>
       </Place>
       <Place
-        title="Senior Frontend Developer"
+        title="Senior FE Dev"
         company="Rehab Agency"
         companyType="Agency"
         dates="Oct 2019 - Feb 2020"
@@ -183,7 +183,7 @@ const ExperienceContract = () => {
         </Para>
       </Place>
       <Place
-        title="Frontend Developer & CSS Architect"
+        title="FE Dev & CSS Architect"
         company="YunoJuno"
         companyType="In-house"
         dates="Jul 2015 - Dec 2017"
