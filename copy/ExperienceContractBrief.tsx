@@ -2,7 +2,6 @@ import SubSectionHeader from "@components/SubSectionHeader";
 import { Li, Ul } from "../components/List";
 import Para from "../components/Para";
 import Place from "../components/Place";
-import SectionHeader from "../components/SectionHeader";
 
 const ExperienceContractBrief = () => {
   return (
