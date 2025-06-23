@@ -19,7 +19,7 @@ const ExperiencePermEra = () => {
         <Para>
           Joined a backend engineering team to build experimental UIs using
           JavaScript to consume and test TV metadata APIs for the BBC. Also
-          contributed to the company blog and spoke at monthly meetups.
+          wrote for the company blog and spoke at monthly meetups.
         </Para>
       </Place>
       <Place
